@@ -1,0 +1,36 @@
+.menu{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 10px 20px; */
+    padding-right: 20px;
+}
+.logo{
+    color: white;
+}
+.logo img{
+    width: 100px;
+}
+.menu .a{
+    color: white;
+    text-decoration: none;
+    padding: 10px 0;
+    margin: 0 10px;
+    font-weight: 500;
+    font-size: 18px;
+}
+.menu .a:hover{
+    border-bottom: 2px solid dodgerblue;
+    color: dodgerblue;
+}
+
+.menubtn{
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    border:2px solid dodgerblue;
+    border-radius: 20px;
+    padding: 10px 25px;
+    font-size: 18px;
+}

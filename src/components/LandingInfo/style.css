@@ -1,0 +1,26 @@
+.landingInfo{
+    color: white;
+    margin: auto;
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.landingInfo h1{
+    font-size: 60px;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.landingInfo p{
+    max-width: 800px;
+    text-align: center;
+    font-size: 18px;
+}
+
+.landingInfo .img{
+    height: 30vh;
+    margin-top: 50px;
+}

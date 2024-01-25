@@ -1,0 +1,57 @@
+.service-card{
+    width: 20vw;
+    color: white;
+    background-color: rgba(255, 255, 255, 0.1);
+    display: flex;
+    flex-direction: column;
+    padding: 30px ;
+    border-radius: 10px;
+    margin: 10px;
+    cursor: pointer;
+    border:1px solid transparent;
+}
+.service-card:hover{
+    background-color: rgba(255, 255, 255, 0.2);
+    border:1px solid rgba(30, 143, 255, 0.3);
+}
+
+.service-card .icon{
+    background-color: rgba(255, 255, 255, 0.1);
+    height: 45px;
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 40px;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+.service-card h2{
+    margin-bottom: 10px;
+}
+.customer{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+    border-top: 2px solid #888;
+    padding-top: 10px;
+}
+.customer img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.customer div{
+    margin-left: 10px;
+}
+
+.client-name{
+    font-weight: 700;
+}
+.client-service-name{
+    color: #aaa;
+}
+
+.description{
+    font-size: 18px;
+}

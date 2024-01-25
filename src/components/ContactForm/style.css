@@ -1,0 +1,23 @@
+.contactform{
+    margin: 10px;
+    background-color: rgba(255, 255, 255, 0.1);
+    padding: 5px 5px 5px 20px;
+    /* width: 400px; */
+    display: flex;
+    justify-content: space-between;
+    border-radius: 30px;
+}
+.contactform input{
+    width: 300px;
+    background-color: transparent;
+    border: none;
+    padding: 0px 10px;
+}
+
+.contactform button{
+    background-color: dodgerblue;
+    color: white;
+    padding: 15px 20px;
+    border: none;
+    border-radius: 30px;
+}
