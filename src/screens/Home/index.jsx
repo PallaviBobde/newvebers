@@ -7,6 +7,7 @@ import Services from '../../components/Services';
 import Testimonials from '../../components/Testimonials';
 import TechnolgiesSection from '../../components/TechnologiesSection';
 import Works from '../../components/Works';
+import FAQs from '../../components/Faqs';
 
 function Home() {
   return (
@@ -17,6 +18,7 @@ function Home() {
       <Services/>
       <Works/>
       <Testimonials/>
+      <FAQs/>
       <Footer/>
     </div>
   )

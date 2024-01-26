@@ -13,6 +13,7 @@ function Works() {
         })
       }
     </div>
+    <button className="more-project-btn">More Projects</button>
   </div>;
 }
 

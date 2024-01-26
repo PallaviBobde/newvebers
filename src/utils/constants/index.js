@@ -157,3 +157,36 @@ export const webDevelopmentProjects = [
     },
   },
 ];
+
+export const faqs = [
+  {
+    question: "What services does your web development agency provide?",
+    answer:
+      "We offer a range of services including custom web development, website redesign, e-commerce solutions, mobile app development, and more. Our goal is to provide tailored solutions that meet the unique needs of each client.",
+  },
+  {
+    question: "How long does it take to develop a website?",
+    answer:
+      "The timeline for website development varies depending on the complexity and scope of the project. Simple websites may take a few weeks, while larger and more intricate projects could take several months. We work closely with our clients to establish realistic timelines and milestones.",
+  },
+  {
+    question: "What technologies do you use for web development?",
+    answer:
+      "Our web development team is proficient in a variety of technologies, including but not limited to HTML, CSS, JavaScript, React.js, Angular, Node.js, PHP, and WordPress. We stay up-to-date with the latest industry trends to ensure we deliver modern and efficient solutions.",
+  },
+  {
+    question: "Can you redesign an existing website?",
+    answer:
+      "Absolutely! We specialize in website redesigns to give your online presence a fresh and modern look. Whether you want to update the design, improve functionality, or enhance user experience, we can help transform your existing website.",
+  },
+  {
+    question: "How do you ensure website security?",
+    answer:
+      "Security is a top priority for us. We implement industry best practices to secure websites, including SSL encryption, secure coding standards, and regular security audits. We also provide ongoing support and updates to address any potential vulnerabilities.",
+  },
+  {
+    question: "What is the cost of web development services?",
+    answer:
+      "The cost of web development depends on the specific requirements of the project. Factors such as complexity, features, and customization influence the overall cost. We offer transparent pricing and work closely with clients to provide cost-effective solutions that align with their budget.",
+  },
+];

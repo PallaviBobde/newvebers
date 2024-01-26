@@ -8,3 +8,14 @@
     flex-wrap: wrap;
     justify-content: center;
 }
+
+.more-project-btn{
+    margin: 10px 13vw;
+    padding: 10px;
+    font-size: 20px;
+    width: 74vw;
+    border-radius: 10px;
+    background-color: transparent;
+    color: dodgerblue;
+    border: 2px solid dodgerblue;
+}
