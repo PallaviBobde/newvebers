@@ -1,7 +1,7 @@
 import React from "react";
 import './style.css'
 import { Link } from "react-router-dom";
-import ContactForm from '../ContactForm';
+import ContactForm from '../ContactForm/HomePageContact';
 
 function Footer() {
   return <div className="footer">

@@ -26,11 +26,11 @@ export default function index() {
 
 
        <div className="w-full lg:flex-row flex-col flex z-10">
-        <div className=" w-full lg:w-1/2 flex justify-center items-center my-12">
+        <div className=" w-full lg:w-1/2 flex items-center my-12">
           <form
             action="https://formsubmit.co/8dceccfc7d1a6ea003ce596aa34236d6"
             method="POST"
-            className="mx-2 w-full max-w-lg border-black bg-[#11111A] rounded-md px-8 py-10 sm:py-14 "
+            className="mx-2 w-full max-w-lg bg-[#161616] border border-[#8892B030] rounded-md px-8 py-10 sm:py-14 "
             style={{ boxShadow: "0 12px 105px 0 #1e90ff12" }}
           >
             <h1 className="text-[#8892B0] text-center md:text-4xl text-3xl py-6 pb-10 smooth-italic">

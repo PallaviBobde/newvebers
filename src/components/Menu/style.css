@@ -31,6 +31,12 @@
     font-weight: 500;
     border:2px solid dodgerblue;
     border-radius: 20px;
-    padding: 10px 25px;
+    padding: 10px 20px;
     font-size: 18px;
+}
+
+.menubtn:hover{
+
+    background-color:#1e8fff20;
+
 }
