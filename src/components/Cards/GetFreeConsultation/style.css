@@ -1,0 +1,43 @@
+.get-free-consultation{
+    width: 76vw;
+    margin: 50px auto;
+    background-color: rgba(255, 255,255, 0.1);
+    position: relative;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 10px;
+}
+
+.text{
+    flex: 2;
+    padding: 10px;
+    padding-top: 20px;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.text-heading{
+    text-align: left;
+    font-weight: 600;
+    font-size: 40px;
+    margin-bottom: 10px;
+    padding-left: 20px;
+}
+.text p{
+    padding-left: 20px;
+}
+
+.img-contianer{
+    flex: 1;
+    padding-left: 100px;
+    overflow: hidden; border-radius: 10px;
+}
+
+.get-free-consultation img{
+    width: 100%;
+    border-radius: 10px;
+    transform: rotate(15deg) scale(1.4);
+}
+
