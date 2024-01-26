@@ -1,5 +1,6 @@
 .works{
-    margin-top: 10vh;
+    margin-top: 2rem;
+    text-align: center;
 }
 
 .work-container{
@@ -7,13 +8,14 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    align-items: center;
+    text-align: center;
 }
 
 .more-project-btn{
-    margin: 10px 13vw;
     padding: 10px;
     font-size: 20px;
-    width: 74vw;
+    width: 70%;
     border-radius: 10px;
     background-color: transparent;
     color: dodgerblue;

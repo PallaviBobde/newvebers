@@ -9,8 +9,11 @@
 }
 .contactform input{
     width: 300px;
+    color: white;
     background-color: transparent;
     border: none;
+    font-size: 18px;
+    outline: none;
     padding: 0px 10px;
 }
 
