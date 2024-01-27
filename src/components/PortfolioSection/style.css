@@ -8,4 +8,10 @@
     width: 30vw;
     border-radius: 10px;
     margin: 20px;
+    margin-bottom: 30px;
+    filter: grayscale(90%);
+}
+
+.portfolio .portfolio-container img:hover{
+    filter: grayscale(0%);
 }

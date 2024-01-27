@@ -15,7 +15,7 @@
 
 .question{
     padding: 20px;
-    background-color: rgba(255, 255, 255, 0.05);
+    background-color: #111;
     border-radius: 10px;
     display: flex;
     justify-content: space-between;
@@ -32,9 +32,9 @@
     display: none;
     width: 94vw;
 }
-.active-question{
+.question:hover, .active-question{
     border: 1px solid rgba(30, 143, 255, 0.3);
-    background-color:  rgba(30, 143, 255, 0.1);
+    background-color:  #1e8fff;
 }
 .active-answer{
     display: block;

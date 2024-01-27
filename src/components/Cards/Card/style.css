@@ -1,7 +1,7 @@
 .service-card{
     width: 30vw;
     color: white;
-    background-color: rgba(255, 255, 255, 0.1);
+    background-color: #111111;
     display: flex;
     flex-direction: column;
     padding: 30px ;
@@ -13,7 +13,7 @@
 }
 
 .service-card:hover{
-    background-color: rgba(255, 255, 255, 0.2);
+    background-color: #222222;
     border:1px solid rgba(30, 143, 255, 0.3);
 }
 

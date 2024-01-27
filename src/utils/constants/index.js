@@ -1,4 +1,19 @@
 import pbImage from '../../assets/images/pb.jpeg';
+import bakery from "../../assets/images/bakery.png";
+import cake from "../../assets/images/cake.png";
+import cloth from "../../assets/images/cloth.png";
+import dentist from "../../assets/images/dentistwebsite.png";
+import furniture from "../../assets/images/furniture.png";
+import hotel from "../../assets/images/hotel.png";
+import anything from "../../assets/images/anything.png";
+import blog from "../../assets/images/blog.png";
+import musicplayer from "../../assets/images/musicplayer.png";
+import pbportfolio from "../../assets/images/pbportfolio.png";
+import recipes from "../../assets/images/recipes.png";
+import restaurant from "../../assets/images/restaurant.png";
+import tindog from "../../assets/images/tindog.png";
+import shopi from "../../assets/images/shopi.png";
+
 
 export const services = [
   {
@@ -211,26 +226,17 @@ export const TeamMembers = [
 
 export const portfolioImages = [
   [
-    "https://images.pexels.com/videos/6994624/black-black-family-black-guy-black-man-6994624.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=252&fit=crop&h=408",
-    "https://images.pexels.com/photos/57690/pexels-photo-57690.jpeg?auto=compress&cs=tinysrgb&w=800",
-    "https://images.pexels.com/photos/270637/pexels-photo-270637.jpeg?auto=compress&cs=tinysrgb&w=800",
-    "https://images.pexels.com/photos/3585013/pexels-photo-3585013.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load",
-    "https://images.pexels.com/photos/19869332/pexels-photo-19869332/free-photo-of-person-hiking-on-mountain-path.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load",
-    "https://images.pexels.com/photos/19949053/pexels-photo-19949053/free-photo-of-a-man-walking-in-the-shadow-of-a-wall.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load",
+    anything,
+    tindog,
+    bakery,
+    // restaurant
   ],
+  [musicplayer, recipes, furniture, dentist, blog],
   [
-    "https://images.pexels.com/photos/11719062/pexels-photo-11719062.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load",
-    "https://images.pexels.com/photos/19899552/pexels-photo-19899552/free-photo-of-wanaka-tree-new-zealand.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load",
-    "https://images.pexels.com/photos/19400415/pexels-photo-19400415/free-photo-of-a-person-paragliding-over-a-mountain-range.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load",
-    "https://images.pexels.com/photos/18142325/pexels-photo-18142325/free-photo-of-cups-with-water-and-paintbrushes.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load",
-    "https://images.pexels.com/photos/19921587/pexels-photo-19921587.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load",
-  ],
-  [
-    "https://images.pexels.com/photos/19809165/pexels-photo-19809165/free-photo-of-a-black-woman-in-a-black-dress-and-high-heels.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load",
-    "https://images.pexels.com/photos/19791080/pexels-photo-19791080.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load",
-    "https://images.pexels.com/photos/19845826/pexels-photo-19845826/free-photo-of-meadow-sandy-beach-and-sea.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load",
-    "https://images.pexels.com/photos/19868553/pexels-photo-19868553/free-photo-of-two-people-running-down-a-path-in-the-woods.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load",
-    "https://images.pexels.com/photos/19864171/pexels-photo-19864171/free-photo-of-a-walkway-with-statues-and-a-building-in-the-background.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load",
-    "https://images.pexels.com/photos/19977685/pexels-photo-19977685/free-photo-of-a-dark-forest-with-trees-and-fog.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load",
+    cloth,
+    shopi,
+    hotel,
+    cake,
+    // pbportfolio
   ],
 ];
