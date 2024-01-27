@@ -1,14 +1,14 @@
 import React from "react";
 import "./style.css";
-import ContactForm from "../../ContactForm";
+import ContactForm from "../../ContactForm/HomePageContact";
 
 function GetFreeConsultation() {
   return (
     <div className='get-free-consultation'>
       <div className="text">
          <div className="text-heading">Get free Consultation</div>
-        <p>
-          Ready to take your online presence to the next level? Our expert team at VebersZone is here to provide you with a complimentary consultation to discuss your unique needs and explore how we can help you achieve your goals.
+        <p className="my-3">
+        Elevate your online presence with a complimentary consultation from VebersZone's expert team, tailoring solutions to help you achieve your goals.
         </p>
         <ContactForm/>
       </div>

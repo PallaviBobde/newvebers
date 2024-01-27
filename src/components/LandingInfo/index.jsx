@@ -1,6 +1,6 @@
 import React from "react";
 import './style.css'
-import ContactForm from "../ContactForm";
+import ContactForm from "../ContactForm/HomePageContact";
 
 function LandingInfo() {
   return <div className="landingInfo">
