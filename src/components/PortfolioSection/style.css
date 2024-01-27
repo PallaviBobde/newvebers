@@ -1,6 +1,7 @@
 
 .portfolio-container{
     display: flex;
+    justify-content: center;
 }
 
 .portfolio .portfolio-container img{
