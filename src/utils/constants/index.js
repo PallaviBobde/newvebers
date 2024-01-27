@@ -213,15 +213,22 @@ export const TeamMembers = [
     designation: "Founder",
     image: "https://avatars.githubusercontent.com/u/78648366?v=4",
     description:
-      "Gagan, our visionary co-founder, is a true marvel in the world of web development. As a seasoned Full Stack Developer specializing in the MERN (MongoDB, Express.js, React, Node.js) stack, Gagan possesses an unparalleled ability to transform ideas into seamlessly functioning web applications. With an innate talent for problem-solving and an unwavering dedication to staying at the forefront of technology, Gagan ensures that our clients receive cutting-edge solutions that not only meet but exceed their expectations. <br/><br/>Gagan's journey began with an insatiable curiosity for coding, and it evolved into a mastery of the entire web development spectrum. Her knack for creating robust back-end structures combined with an eye for elegant front-end design has set our agency apart in the competitive landscape. Clients benefit not just from her technical prowess but also from her keen understanding of user experience, resulting in websites that are not only functional but also visually captivating.",
+      "Gagan, our visionary co-founder, is a true marvel in the world of web development. As a seasoned Full Stack Developer specializing in the MERN (MongoDB, Express.js, React, Node.js) stack, Gagan possesses an unparalleled ability to transform ideas into seamlessly functioning web applications. With an innate talent for problem-solving and an unwavering dedication to staying at the forefront of technology, Gagan ensures that our clients receive cutting-edge solutions that not only meet but exceed their expectations. ",
   },
   {
     name: "Pallavi Bobde",
     designation: "Co-Founder",
     image: pbImage,
     description:
-      "The other half of our visionary duo is Pallavi, an exceptional developer with a passion for crafting intuitive and responsive user interfaces. Specializing in React and React Native, Pallavi has a gift for creating seamless cross-platform applications that redefine the user experience. Pallavi's expertise lies not only in writing impeccable code but also in understanding the intricacies of user interaction and translating them into captivating digital experiences.<br/><br/> A true advocate for clean and efficient code, Pallavi brings an artistic touch to every project. From engaging web applications to feature-rich mobile apps, Pallavi ensures that every line of code contributes to a harmonious and user-friendly digital environment. With an ever-curious mind and a dedication to staying ahead of the latest industry trends, Pallavi is not just a dev",
+      "The other half of our visionary duo is Pallavi, an exceptional developer with a passion for crafting intuitive and responsive user interfaces. Specializing in React and React Native, Pallavi has a gift for creating seamless cross-platform applications that redefine the user experience. Pallavi's expertise lies not only in writing impeccable code but also in understanding the intricacies of user interaction and translating them into captivating digital experiences.",
   },
+  {
+    name: "Pallavi Bobde",
+    designation: "Co-Founder",
+    image: pbImage,
+    description:
+      "The other half of our visionary duo is Pallavi, an exceptional developer with a passion for crafting intuitive and responsive user interfaces. Specializing in React and React Native, Pallavi has a gift for creating seamless cross-platform applications that redefine the user experience. Pallavi's expertise lies not only in writing impeccable code but also in understanding the intricacies of user interaction and translating them into captivating digital experiences.",
+  }
 ];
 
 export const portfolioImages = [

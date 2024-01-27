@@ -1,7 +1,7 @@
 .aboutInfo{
     color: white;
-    margin: 50px 5vw;
-    
+    width: 100%;
+    margin: auto;
 }
 
 .aboutInfo .container{
@@ -11,7 +11,6 @@
 
 .aboutInfo h1{
     font-size: 60px;
-    margin-bottom: 10px;
 }
 
 .aboutInfo h2{
@@ -22,7 +21,6 @@
 }
 
 .aboutInfo p{
-    max-width: 800px;
     font-size: 18px;
 }
 
