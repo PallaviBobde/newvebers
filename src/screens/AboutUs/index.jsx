@@ -10,14 +10,15 @@ import GetFreeConsultation from '../../components/Cards/GetFreeConsultation';
 function AboutUs() {
   
   return (
-    <div className='page'>
+    <>
+
       <Menu />
       <AboutInfo/>
       <OurFounders/>
       <AboutWhySection/>
       <GetFreeConsultation/>
       <Footer />
-    </div>
+      </>
   );
 }
 

@@ -8,13 +8,19 @@ import Services from "./screens/Services";
 function App() {
   return (
     <BrowserRouter classname="app">
-      <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/Services" element={<Services />} />
-        <Route path="/Portfolio" element={<Portfolio />} />
-        <Route path="/AboutUs" element={<AboutUs />} />
-        <Route path="/ContactUs" element={<ContactUs />} />
-      </Routes>
+          <div className='page flex justify-center'>
+            <div className="max-w-[2000px]">
+
+              <Routes>
+                <Route path="/" element={<Home />} />
+                <Route path="/Services" element={<Services />} />
+                <Route path="/Portfolio" element={<Portfolio />} />
+                <Route path="/AboutUs" element={<AboutUs />} />
+                <Route path="/ContactUs" element={<ContactUs />} />
+              </Routes>
+            </div>
+
+          </div>
     </BrowserRouter>
   );
 }
