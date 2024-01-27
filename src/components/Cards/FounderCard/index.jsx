@@ -8,11 +8,11 @@ function FoundersCard({name,designation,image,description,index}) {
   return (
     <div className="founder-card">
         {index === 0 && <div className="img-container">
-            <img src={image}/>
+            <img src={image} className="img"/>
             <div className="box"/>
           </div>
         }
-       <div>
+       <div className="text-container">
         <h1 className="h1">{name}</h1>
         <h2>{designation}</h2>
         <p className="about" dangerouslySetInnerHTML={htmlObject}>
@@ -20,7 +20,7 @@ function FoundersCard({name,designation,image,description,index}) {
         {/* links */}
        </div>
        {index === 1 && <div className="img-container">
-            <img src={image}/>
+            <img src={image} className="img"/>
             <div className="box"/>
           </div>
         }

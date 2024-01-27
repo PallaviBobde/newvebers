@@ -1,5 +1,3 @@
-// https://cdn.pixabay.com/photo/2016/11/29/13/14/attractive-1869761_1280.jpg
-
 import React from "react";
 import './style.css';
 import FoundersCard from "../Cards/FounderCard";

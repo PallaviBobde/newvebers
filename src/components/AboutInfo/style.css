@@ -1,11 +1,12 @@
 .aboutInfo{
     color: white;
-    margin: 50px 10vw;
+    margin: 50px 5vw;
     
 }
 
 .aboutInfo .container{
     display: flex;
+    align-items: center;
 }
 
 .aboutInfo h1{

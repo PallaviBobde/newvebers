@@ -3,14 +3,12 @@
 }
 
 .faq-container{
-    padding: 0 10vw;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     color: white;
 }
 .faq{
-    width: 74vw;
     margin: auto;
     font-size: 18px;
 }
@@ -22,6 +20,7 @@
     display: flex;
     justify-content: space-between;
     margin-top: 10px;
+    width: 94vw;
 }
 
 .answer{
@@ -31,6 +30,7 @@
     border-bottom-right-radius: 10px;
     border-radius: 10px;
     display: none;
+    width: 94vw;
 }
 .active-question{
     border: 1px solid rgba(30, 143, 255, 0.3);

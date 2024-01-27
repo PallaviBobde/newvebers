@@ -1,11 +1,12 @@
 .about-why{
     color: white;
-    margin: 0 10vw;
+    margin: 0 5vw;
     
 }
 
 .about-why .container{
     display: flex;
+    justify-content: space-between;
 }
 
 .about-why h1{
@@ -21,10 +22,9 @@
 }
 
 .about-why p{
-    max-width: 800px;
     font-size: 18px;
 }
 
-.about-why .inner-container{
-    flex: 1;
+.inner-container{
+    padding: 10px 20px 10px 0;
 }
