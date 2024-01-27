@@ -1,0 +1,30 @@
+.about-why{
+    color: white;
+    margin: 0 10vw;
+    
+}
+
+.about-why .container{
+    display: flex;
+}
+
+.about-why h1{
+    font-size: 60px;
+    margin-bottom: 10px;
+}
+
+.about-why h2{
+    margin-bottom: 10px;
+    color: dodgerblue;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.about-why p{
+    max-width: 800px;
+    font-size: 18px;
+}
+
+.about-why .inner-container{
+    flex: 1;
+}

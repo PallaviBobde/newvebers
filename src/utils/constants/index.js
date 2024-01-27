@@ -1,3 +1,4 @@
+import pbImage from '../../assets/images/pb.jpeg';
 
 export const services = [
   {
@@ -193,16 +194,43 @@ export const faqs = [
 
 export const TeamMembers = [
   {
-    name: "Founder: Gagan Singh Baghel",
+    name: "Gagan Singh Baghel",
+    designation: "Founder",
     image: "https://avatars.githubusercontent.com/u/78648366?v=4",
     description:
       "Gagan, our visionary co-founder, is a true marvel in the world of web development. As a seasoned Full Stack Developer specializing in the MERN (MongoDB, Express.js, React, Node.js) stack, Gagan possesses an unparalleled ability to transform ideas into seamlessly functioning web applications. With an innate talent for problem-solving and an unwavering dedication to staying at the forefront of technology, Gagan ensures that our clients receive cutting-edge solutions that not only meet but exceed their expectations. <br/><br/>Gagan's journey began with an insatiable curiosity for coding, and it evolved into a mastery of the entire web development spectrum. Her knack for creating robust back-end structures combined with an eye for elegant front-end design has set our agency apart in the competitive landscape. Clients benefit not just from her technical prowess but also from her keen understanding of user experience, resulting in websites that are not only functional but also visually captivating.",
   },
   {
-    name: "Co-Founder: Pallavi Bobde",
-    image:
-      "https://cdn.pixabay.com/photo/2017/11/06/13/45/cap-2923682_1280.jpg",
+    name: "Pallavi Bobde",
+    designation: "Co-Founder",
+    image: pbImage,
     description:
       "The other half of our visionary duo is Pallavi, an exceptional developer with a passion for crafting intuitive and responsive user interfaces. Specializing in React and React Native, Pallavi has a gift for creating seamless cross-platform applications that redefine the user experience. Pallavi's expertise lies not only in writing impeccable code but also in understanding the intricacies of user interaction and translating them into captivating digital experiences.<br/><br/> A true advocate for clean and efficient code, Pallavi brings an artistic touch to every project. From engaging web applications to feature-rich mobile apps, Pallavi ensures that every line of code contributes to a harmonious and user-friendly digital environment. With an ever-curious mind and a dedication to staying ahead of the latest industry trends, Pallavi is not just a dev",
   },
+];
+
+export const portfolioImages = [
+  [
+    "https://images.pexels.com/videos/6994624/black-black-family-black-guy-black-man-6994624.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=252&fit=crop&h=408",
+    "https://images.pexels.com/photos/57690/pexels-photo-57690.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "https://images.pexels.com/photos/270637/pexels-photo-270637.jpeg?auto=compress&cs=tinysrgb&w=800",
+    "https://images.pexels.com/photos/3585013/pexels-photo-3585013.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load",
+    "https://images.pexels.com/photos/19869332/pexels-photo-19869332/free-photo-of-person-hiking-on-mountain-path.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load",
+    "https://images.pexels.com/photos/19949053/pexels-photo-19949053/free-photo-of-a-man-walking-in-the-shadow-of-a-wall.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load",
+  ],
+  [
+    "https://images.pexels.com/photos/11719062/pexels-photo-11719062.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load",
+    "https://images.pexels.com/photos/19899552/pexels-photo-19899552/free-photo-of-wanaka-tree-new-zealand.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load",
+    "https://images.pexels.com/photos/19400415/pexels-photo-19400415/free-photo-of-a-person-paragliding-over-a-mountain-range.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load",
+    "https://images.pexels.com/photos/18142325/pexels-photo-18142325/free-photo-of-cups-with-water-and-paintbrushes.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load",
+    "https://images.pexels.com/photos/19921587/pexels-photo-19921587.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load",
+  ],
+  [
+    "https://images.pexels.com/photos/19809165/pexels-photo-19809165/free-photo-of-a-black-woman-in-a-black-dress-and-high-heels.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load",
+    "https://images.pexels.com/photos/19791080/pexels-photo-19791080.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load",
+    "https://images.pexels.com/photos/19845826/pexels-photo-19845826/free-photo-of-meadow-sandy-beach-and-sea.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load",
+    "https://images.pexels.com/photos/19868553/pexels-photo-19868553/free-photo-of-two-people-running-down-a-path-in-the-woods.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load",
+    "https://images.pexels.com/photos/19864171/pexels-photo-19864171/free-photo-of-a-walkway-with-statues-and-a-building-in-the-background.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load",
+    "https://images.pexels.com/photos/19977685/pexels-photo-19977685/free-photo-of-a-dark-forest-with-trees-and-fog.jpeg?auto=compress&cs=tinysrgb&w=800&lazy=load",
+  ],
 ];

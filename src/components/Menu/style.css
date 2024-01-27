@@ -22,6 +22,15 @@
 }
 .menu .a:hover{
     border-bottom: 2px solid dodgerblue;
+}
+
+.active-link{
+    text-decoration: none;
+    padding: 10px 0;
+    margin: 0 10px;
+    font-weight: 500;
+    font-size: 18px;
+    border-bottom: 2px solid dodgerblue;
     color: dodgerblue;
 }
 
@@ -33,4 +42,8 @@
     border-radius: 20px;
     padding: 10px 25px;
     font-size: 18px;
+}
+
+.menubtn:hover{
+    background-color: dodgerblue;
 }

@@ -1,30 +1,30 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import './style.css';
 import Logo from '../../assets/images/vbb.png';
 
 function Menu() {
   return (
-    <div className="menu">
-      <Link to="/" className="logo"><img src={Logo} alt="Description of the image" /></Link>
+    <nav className="menu">
+      <NavLink to="/" activeClassName="active-link" className="logo"><img src={Logo} alt="Description of the image" /></NavLink>
       <div>
-        <Link to="/" className="a">
+        <NavLink to="/"  className={({ isActive }) => (isActive ? 'active-link' : 'a')}>
           Home
-        </Link>
-        <Link to="/Services" className="a">
+        </NavLink>
+        <NavLink to="/Services" className={({ isActive }) => (isActive ? 'active-link' : 'a')}>
           Services
-        </Link>
-        <Link to="/Portfolio" className="a">
+        </NavLink>
+        <NavLink to="/Portfolio" className={({ isActive }) => (isActive ? 'active-link' : 'a')}>
           Portfolio
-        </Link>
-        <Link to="/AboutUs" className="a">
+        </NavLink>
+        <NavLink to="/AboutUs" className={({ isActive }) => (isActive ? 'active-link' : 'a')}>
           About Us
-        </Link>
+        </NavLink>
       </div>
        <Link to="/ContactUs" className="menubtn">
         Contact Us
         </Link>
-    </div>
+    </nav>
   );
 }
 

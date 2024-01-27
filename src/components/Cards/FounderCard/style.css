@@ -1,0 +1,50 @@
+.founder-card{
+    margin: 50px 10vw;
+    display: flex;
+    align-items: center;
+}
+
+.founder-card img{
+    width: 300px;
+    height: 300px;
+    border-radius: 10px;
+    z-index: 2;
+}
+
+.founder-card img:hover{
+    transform:  scale(1.1);
+}
+
+.founder-card div{
+   padding: 20px 50px;
+   color: white;
+   border-radius: 20px;
+}
+.founder-card h1{
+    margin-left: 0;
+}
+
+.founder-card h2{
+    margin: 5px 0 20px 0;
+    text-transform: uppercase;
+    color: dodgerblue;
+    font-size: 14px;
+}
+
+.founder-card .img-container{
+    width: 350px;
+    height: 350px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+.founder-card .img-container .box{
+    width: 300px;
+    height: 300px;
+    padding: 0;
+    background-color: rgba(255, 255, 255, 0.2);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}

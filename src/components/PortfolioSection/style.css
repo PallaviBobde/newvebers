@@ -1,0 +1,10 @@
+
+.portfolio-container{
+    display: flex;
+}
+
+.portfolio .portfolio-container img{
+    width: 30vw;
+    border-radius: 10px;
+    margin: 20px;
+}
