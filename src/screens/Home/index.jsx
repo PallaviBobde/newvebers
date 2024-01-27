@@ -11,7 +11,8 @@ import PortfolioSection from '../../components/PortfolioSection';
 
 function Home() {
   return (
-    <div className='page'>
+<>
+
       <Menu/>
       <LandingInfo/>
       <ServicesSection />
@@ -20,7 +21,8 @@ function Home() {
       <Testimonials/>
       <FAQs/>
       <Footer/>
-    </div>
+</>
+
   )
 }
 

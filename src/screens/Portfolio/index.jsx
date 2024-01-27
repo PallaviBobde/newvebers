@@ -6,11 +6,12 @@ import PortfolioSection from '../../components/PortfolioSection';
 
 function Portfolio() {
   return (
-    <div className='page'>
-     <Menu/>
-     <PortfolioSection />
-     <Footer/>
-    </div>
+    <>
+        <Menu/>
+        <PortfolioSection />
+        <Footer/>
+    </>
+
   )
 }
 

@@ -6,11 +6,11 @@ import './style.css'
 
 function ContactUs() {
   return (
-    <div className='page'>
+<>
       <Menu />
       <GenrelContactForm/>
       <Footer />
-    </div>
+</>
   );
 }
 

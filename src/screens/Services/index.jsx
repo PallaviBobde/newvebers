@@ -7,12 +7,12 @@ import GetFreeConsultation from '../../components/Cards/GetFreeConsultation';
 
 function Services() {
   return (
-    <div className='page'>
-     <Menu/>
-     <ServicesSection/>
-     <GetFreeConsultation/>
-     <Footer/>
-    </div>
+    <>
+        <Menu/>
+        <ServicesSection/>
+        <GetFreeConsultation/>
+        <Footer/>
+    </>
   )
 }
 
