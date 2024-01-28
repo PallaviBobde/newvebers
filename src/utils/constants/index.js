@@ -13,6 +13,7 @@ import recipes from "../../assets/images/recipes.png";
 import restaurant from "../../assets/images/restaurant.png";
 import tindog from "../../assets/images/tindog.png";
 import shopi from "../../assets/images/shopi.png";
+import Yu from '../../assets/images/Yuvraj.jpeg';
 
 
 export const services = [
@@ -223,12 +224,12 @@ export const TeamMembers = [
       "The other half of our visionary duo is Pallavi, an exceptional developer with a passion for crafting intuitive and responsive user interfaces. Specializing in React and React Native, Pallavi has a gift for creating seamless cross-platform applications that redefine the user experience. Pallavi's expertise lies not only in writing impeccable code but also in understanding the intricacies of user interaction and translating them into captivating digital experiences.",
   },
   {
-    name: "Pallavi Bobde",
-    designation: "Co-Founder",
-    image: pbImage,
+    name: "Yuvraj",
+    designation: "Marketing Head",
+    image: Yu,
     description:
-      "The other half of our visionary duo is Pallavi, an exceptional developer with a passion for crafting intuitive and responsive user interfaces. Specializing in React and React Native, Pallavi has a gift for creating seamless cross-platform applications that redefine the user experience. Pallavi's expertise lies not only in writing impeccable code but also in understanding the intricacies of user interaction and translating them into captivating digital experiences.",
-  }
+      "Meet Yuvraj, the dynamic force steering our marketing endeavors. Renowned for his visionary approach and a proven track record, he is the architect of our brand's success. He blends creativity with data-driven insights, setting the standard for industry excellence. As a true leader and collaborator, they inspire our team to reach new levels of creativity and effectiveness. Welcome to the driving force behind our marketing triumphs—Yuvraj.",
+  },
 ];
 
 export const portfolioImages = [
