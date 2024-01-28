@@ -10,6 +10,7 @@
     margin: 20px;
     margin-bottom: 30px;
     filter: grayscale(90%);
+    border:1px solid rgba(30, 143, 255, 0.3);
 }
 
 .portfolio .portfolio-container img:hover{
