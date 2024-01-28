@@ -1,19 +1,3 @@
-import pbImage from '../../assets/images/pb.jpeg';
-import bakery from "../../assets/images/bakery.png";
-import cake from "../../assets/images/cake.png";
-import cloth from "../../assets/images/cloth.png";
-import dentist from "../../assets/images/dentistwebsite.png";
-import furniture from "../../assets/images/furniture.png";
-import hotel from "../../assets/images/hotel.png";
-import anything from "../../assets/images/anything.png";
-import blog from "../../assets/images/blog.png";
-import musicplayer from "../../assets/images/musicplayer.png";
-import pbportfolio from "../../assets/images/pbportfolio.png";
-import recipes from "../../assets/images/recipes.png";
-import restaurant from "../../assets/images/restaurant.png";
-import tindog from "../../assets/images/tindog.png";
-import shopi from "../../assets/images/shopi.png";
-import Yu from '../../assets/images/Yuvraj.jpeg';
 
 
 export const services = [
@@ -219,14 +203,16 @@ export const TeamMembers = [
   {
     name: "Pallavi Bobde",
     designation: "Co-Founder",
-    image: pbImage,
+    image:
+      "https://res.cloudinary.com/dlksyxvtd/image/upload/v1706421966/vebers/cwomiae6al0si18fjtw4.jpg",
     description:
       "The other half of our visionary duo is Pallavi, an exceptional developer with a passion for crafting intuitive and responsive user interfaces. Specializing in React and React Native, Pallavi has a gift for creating seamless cross-platform applications that redefine the user experience. Pallavi's expertise lies not only in writing impeccable code but also in understanding the intricacies of user interaction and translating them into captivating digital experiences.",
   },
   {
     name: "Yuvraj",
     designation: "Marketing Head",
-    image: Yu,
+    image:
+      "https://res.cloudinary.com/dlksyxvtd/image/upload/v1706422023/vebers/vflzejxm2hr6bewt0vwh.jpg",
     description:
       "Meet Yuvraj, the dynamic force steering our marketing endeavors. Renowned for his visionary approach and a proven track record, he is the architect of our brand's success. He blends creativity with data-driven insights, setting the standard for industry excellence. As a true leader and collaborator, they inspire our team to reach new levels of creativity and effectiveness. Welcome to the driving force behind our marketing triumphs—Yuvraj.",
   },
@@ -234,17 +220,21 @@ export const TeamMembers = [
 
 export const portfolioImages = [
   [
-    anything,
-    tindog,
-    bakery,
-    // restaurant
+    "https://res.cloudinary.com/dlksyxvtd/image/upload/v1706422794/vebers/x0vlywsrfhukz9po2jv1.png",
+    "https://res.cloudinary.com/dlksyxvtd/image/upload/v1706422729/vebers/heos8cvflrh5jkismcog.png",
+    "https://res.cloudinary.com/dlksyxvtd/image/upload/v1706423498/vebers/sgrjhnuyvbzt7v43ibwf.png",
   ],
-  [musicplayer, recipes, furniture, dentist, blog],
   [
-    cloth,
-    shopi,
-    hotel,
-    cake,
-    // pbportfolio
+    "https://res.cloudinary.com/dlksyxvtd/image/upload/v1706423181/vebers/ue51l0fxnhplmhhltylr.png",
+    "https://res.cloudinary.com/dlksyxvtd/image/upload/v1706422072/vebers/qy487xd9rdmdsxsmdhgy.png",
+    "https://res.cloudinary.com/dlksyxvtd/image/upload/v1706422973/vebers/atwt2obgcyfonftmpyfo.png",
+    "https://res.cloudinary.com/dlksyxvtd/image/upload/v1706422012/vebers/lybzdwrrmdnhwxrdgub0.png",
+    "https://res.cloudinary.com/dlksyxvtd/image/upload/v1706422049/vebers/xgzb7sqgpkbuzpsjsaxh.png",
+  ],
+  [
+    "https://res.cloudinary.com/dlksyxvtd/image/upload/v1706423482/vebers/bqwrlamh4rp1gdsjqsgd.png",
+    "https://res.cloudinary.com/dlksyxvtd/image/upload/v1706422016/vebers/emqkgz3eidbmdngzhelb.png",
+    "https://res.cloudinary.com/dlksyxvtd/image/upload/v1706423298/vebers/t2xqp2mbwdamkemaa3on.png",
+    "https://res.cloudinary.com/dlksyxvtd/image/upload/v1706423302/vebers/bxluyokb9q4buksewpwj.png",
   ],
 ];

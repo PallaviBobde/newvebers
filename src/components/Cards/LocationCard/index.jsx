@@ -1,11 +1,11 @@
 import React from 'react'
-import mapImage from '../../../assets/mapImage/MapImage.png'
+
 
 export default function index() {
   return (
     <div className=" w-[22rem] flex flex-col p-8 rounded-[10px] bg-[#1e90ff20] space-y-2">
         <img 
-            src={mapImage}
+            src={"https://res.cloudinary.com/dlksyxvtd/image/upload/v1706423632/vebers/u90tok450g3tfjdbyuei.png"}
             className="rounded-[10px] mb-6 h-[15rem]"
             loading="lazy">
         </img>
