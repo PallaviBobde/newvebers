@@ -15,10 +15,12 @@ body {
 *{
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
 
 .page{
   min-height: 100vh;
+  width: 100vw;
   background-color: #161616;
   background-image: url("https://res.cloudinary.com/dlksyxvtd/image/upload/v1706423658/vebers/va3ltcbtsqvzzshjalva.gif");
   background-size: contain;
@@ -28,7 +30,6 @@ body {
 .heading{
     color: white;
     text-align: center;
-    font-weight: 600;
     margin-bottom: 50px;
-    font-size: 50px;
+    font-size: 6vw;
 }

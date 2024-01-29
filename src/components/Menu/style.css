@@ -3,7 +3,6 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    /* padding: 10px 20px; */
     padding-right: 20px;
 }
 .logo{
@@ -45,8 +44,55 @@
 }
 
 .menubtn:hover{
-
     background-color:#1e8fff20;
-
 }
 
+.menu-icon {
+    display: none;
+    cursor: pointer;
+    color: white;
+    font-size: 35px;
+    padding: 20px;
+}
+
+.showondesktop{
+    display: flex;
+}
+
+.menu-icon-container{
+    display: none;
+}
+
+.bggray{
+    background-color: #111;
+}
+
+@media screen and (max-width: 650px) {
+    .menu {
+        flex-direction: column;
+        height: 90vh;
+        justify-content: space-around;
+        background-color: #111;
+    }
+    .menu div{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .menu-icon{
+        display: block;
+    }
+
+    .logomenu{
+        background-color: blue;
+        display: none;
+    }
+    .showondesktop{
+        display: none;
+    }
+    .menu-icon-container{
+        display: flex;
+        justify-content: space-between;
+    }
+
+}

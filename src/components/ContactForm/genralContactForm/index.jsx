@@ -2,7 +2,8 @@ import React from "react";
 import MediaButton from "../../MediaButtons";
 import SocialLinkCard from "../../SocialLinkCard";
 import LocationCard from "../../Cards/LocationCard";
-import ContactCard from "../../Cards/ContactCard"
+import ContactCard from "../../Cards/ContactCard";
+import './style.css';
 
 export default function index() {
   return (
@@ -10,17 +11,15 @@ export default function index() {
       id="Contact"
       className="relative py-4 flex flex-col sm:px-28 sm:pb-36 pb-8 text-white"
     >
-      <div className="flex flex-col my-12 bg-[#82828520] p-8 rounded-[10px]">
+      <div className=" flex-col my-12 bg-[#82828520] p-8 rounded-[10px] hideonphone">
         <h2 className="text-[4rem] ">Have a question or want to get in touch</h2>
         <p className="px-4 my-4 text-[1.2rem] text-[#1e8fffe4]">
-          {" "}
-          
-          we would love to hear it from you! feel free to reach out through any
-          of the following method
+          We would love to hear from you! Feel free to reach out through any
+          of the following methods
         </p>
       </div>
 
-      <div className="flex flex-col space-y-2 my-6 bg-[#82828520] p-10 rounded-[10px]">
+      <div className=" flex-col space-y-2 my-6 bg-[#82828520] p-10 rounded-[10px] hideonphone">
         <p className="text-[1.4rem] px-2">LOCATIONS AND MAPs </p>
         <div className="flex p-8">
           <LocationCard />

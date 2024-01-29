@@ -2,6 +2,7 @@ import React from "react";
 import './style.css'
 import {indianClients} from "../../utils/constants";
 import Card from "../Cards/Card";
+import MobileSlider from "../MobileSlider";
 
 function Testimonials() {
 
@@ -12,6 +13,11 @@ function Testimonials() {
         return  <Card cardtype="testimonial" description={client.comment} clientImage={client.userImage} clientName={client.userName} clientServiceName={client.userService} />
       })}
     </div>
+    <MobileSlider>
+      {indianClients.map((client)=>{
+        return  <Card cardtype="testimonial" description={client.comment} clientImage={client.userImage} clientName={client.userName} clientServiceName={client.userService} />
+      })}
+    </MobileSlider>
   </div>;
 }
 

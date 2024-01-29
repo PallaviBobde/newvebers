@@ -37,24 +37,24 @@ export const services = [
       "Creating custom mobile applications for iOS and Android platforms. Our apps are designed for optimal performance, user experience, and functionality.",
     icon: "📱",
   },
-  {
-    name: "Content Creation",
-    description:
-      "Generating compelling and relevant content for your website, blog, or social media channels. We focus on delivering content that resonates with your audience and enhances your brand messaging.",
-    icon: "✍️",
-  },
-  {
-    name: "UI/UX Design",
-    description:
-      "Ensuring an intuitive and visually appealing user interface/experience for your digital products. We prioritize user-centric design to enhance engagement and satisfaction.",
-    icon: "🎨",
-  },
-  {
-    name: "Branding Consultation",
-    description:
-      "Providing strategic guidance on building and enhancing your brand. From logo design to brand messaging, we help you establish a cohesive and memorable brand identity.",
-    icon: "🔍",
-  },
+  // {
+  //   name: "Content Creation",
+  //   description:
+  //     "Generating compelling and relevant content for your website, blog, or social media channels. We focus on delivering content that resonates with your audience and enhances your brand messaging.",
+  //   icon: "✍️",
+  // },
+  // {
+  //   name: "UI/UX Design",
+  //   description:
+  //     "Ensuring an intuitive and visually appealing user interface/experience for your digital products. We prioritize user-centric design to enhance engagement and satisfaction.",
+  //   icon: "🎨",
+  // },
+  // {
+  //   name: "Branding Consultation",
+  //   description:
+  //     "Providing strategic guidance on building and enhancing your brand. From logo design to brand messaging, we help you establish a cohesive and memorable brand identity.",
+  //   icon: "🔍",
+  // },
 ];
 
 export const indianClients = [

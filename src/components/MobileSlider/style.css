@@ -1,0 +1,29 @@
+.custom-dots .slick-active .dot {
+  background-color: white; 
+}
+
+.dot {
+  width: 10px;
+  height: 10px;
+  background-color: rgba(255, 255, 255, 0.5);
+  border-radius: 50%;
+  display: inline-block;
+  margin: 0 5px;
+  cursor: pointer;
+}
+
+.mobile-slider{
+    width: 100vw;
+    margin-bottom: 100px;
+    align-items: center;
+    display: none;
+}
+
+@media screen and (max-width: 650px) {
+    .service-container{
+        display: none;
+    }
+    .mobile-slider{
+        display: block;
+    }
+}

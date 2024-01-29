@@ -10,7 +10,7 @@ function Services() {
     <>
         <Menu/>
         <ServicesSection/>
-        <GetFreeConsultation/>
+        {/* <GetFreeConsultation/> */}
         <Footer/>
     </>
   )

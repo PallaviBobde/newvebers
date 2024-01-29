@@ -16,7 +16,7 @@ function Home() {
       <Menu/>
       <LandingInfo/>
       <ServicesSection />
-      <GetFreeConsultation/>
+      {/* <GetFreeConsultation/> */}
       <PortfolioSection isHomepage />
       <Testimonials/>
       <FAQs/>

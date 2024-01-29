@@ -2,10 +2,13 @@
 .portfolio-container{
     display: flex;
     justify-content: center;
+    width: 100vw;
+    flex-wrap: wrap;
 }
 
 .portfolio .portfolio-container img{
     width: 30vw;
+    min-width: 300px;
     border-radius: 10px;
     margin: 20px;
     margin-bottom: 30px;
@@ -15,4 +18,18 @@
 
 .portfolio .portfolio-container img:hover{
     filter: grayscale(0%);
+}
+
+.img-holder{
+    height: 250px;
+    overflow: none;
+}
+
+@media screen and (max-width: 650px) {
+    .portfolio-container{
+        display: none;
+    }
+    .portfolio .portfolio-container img{
+        height: 200px;
+    }
 }
