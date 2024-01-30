@@ -238,3 +238,6 @@ export const portfolioImages = [
     "https://res.cloudinary.com/dlksyxvtd/image/upload/v1706423302/vebers/bxluyokb9q4buksewpwj.png",
   ],
 ];
+
+
+export const phoneNumber = '+918319699486';

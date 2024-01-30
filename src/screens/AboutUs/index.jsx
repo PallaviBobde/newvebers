@@ -6,12 +6,13 @@ import OurFounders from "../../components/OurFounders";
 import AboutInfo from "../../components/AboutInfo";
 import AboutWhySection from "../../components/AboutWhySection";
 import GetFreeConsultation from '../../components/Cards/GetFreeConsultation';
+import TopBanner from '../../components/TopBanner';
 
 function AboutUs() {
   
   return (
     <>
-
+     <TopBanner/>
       <Menu />
       <AboutInfo/>
       <OurFounders/>
