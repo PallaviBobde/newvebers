@@ -260,7 +260,7 @@ function ValentineDiary() {
       <img src={ribbon} className="ribbon2" />
       <img src={ribbon} className="ribbon4" />
       <p className="go-to-veberszone">
-        <Link to="/" >
+        <Link to="/"  >
           Go to
           <br />
           VebersZone

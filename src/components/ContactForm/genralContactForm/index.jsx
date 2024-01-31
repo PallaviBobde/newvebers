@@ -14,7 +14,7 @@ export default function index() {
   return (
     <section
       id="Contact"
-      className="relative py-4 flex flex-col sm:px-28 sm:pb-36 pb-8 text-white"
+      className="relative py-4 flex flex-col sm:px-28 sm:pb-36 pb-8 text-white "
     >
       <div className=" flex-col my-12 bg-[#82828520] p-8 rounded-[10px] hideonphone">
         <h2 className=" text-[2rem] sm:text-[4rem] ">Have a question or want to get in touch</h2>
@@ -40,12 +40,18 @@ export default function index() {
             </div>
           </div>
 
-          <div className="flex space-x-3">
+          <div className="flex space-x-3 mb-10">
             <MediaButton contactLink={"https://www.linkedin.com/in/vebers-zone-a50b242aa/"} iconName={"fa fa-linkedin"} />
             <MediaButton contactLink={"https://www.instagram.com/veberszone"} iconName={"fa fa-instagram"}/>
             <MediaButton contactLink={whatsappUrl} iconName={"fa fa-whatsapp"}  />
           </div>
-          <div className="flex space-y-6 flex-col">
+          <div className=" flex space-y-6 flex-col">
+            <Link
+                to="tel:+918319699485"
+                className="contact_link"
+              >
+                +91 8319699485
+              </Link>
             <SocialLinkCard contactLink={"Mailto:veberszone@gmail.com"} iconName={"fa-envelope"} heading="Mail" content="veberszone@gmail.com"/>
             <SocialLinkCard contactLink={whatsappUrl} iconName={"fa-whatsapp"} heading="Whatsapp US: " content="+91 831 9699 485"/>
             <SocialLinkCard contactLink={"tel:8319699485"} iconName={"fa-call"} heading="Call Us" content="+91 831 9699 485"/>
