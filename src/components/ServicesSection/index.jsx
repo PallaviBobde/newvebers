@@ -25,7 +25,7 @@ function Services() {
     ),
   };
 
-  return <><div className="services">
+  return <div className="services">
     <h1 className="heading">We expertise in...</h1>
     <div className="service-container">
       {services.map((service)=>{
@@ -33,13 +33,6 @@ function Services() {
       })}
     </div>
   </div>
-
-  <MobileSlider>
-    {services.map((service)=>{
-        return  <Card cardtype="service" name={service.name} description={service.description} icon={service.icon}  />})
-    }
-  </MobileSlider>
-  </>
   ;
 }
 

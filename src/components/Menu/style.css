@@ -67,7 +67,7 @@
     background-color: #111;
 }
 
-@media screen and (max-width: 650px) {
+@media screen and (max-width: 780px) {
     .menu {
         flex-direction: column;
         height: 90vh;

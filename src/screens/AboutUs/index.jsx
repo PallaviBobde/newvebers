@@ -16,8 +16,8 @@ function AboutUs() {
       <Menu />
       <AboutInfo/>
       <OurFounders/>
-      <AboutWhySection/>
-      <GetFreeConsultation/>
+      {/* <AboutWhySection/> */}
+      {/* <GetFreeConsultation/> */}
       <Footer />
       </>
   );

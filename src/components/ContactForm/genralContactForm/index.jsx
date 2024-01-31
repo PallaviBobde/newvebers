@@ -4,8 +4,13 @@ import SocialLinkCard from "../../SocialLinkCard";
 import LocationCard from "../../Cards/LocationCard";
 import ContactCard from "../../Cards/ContactCard";
 import './style.css';
+import { Link } from "react-router-dom";
+import { phoneNumber } from "../../../utils/constants";
 
 export default function index() {
+  const whatsappUrl = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(
+    "I want a Website"
+  )}`;
   return (
     <section
       id="Contact"
@@ -37,14 +42,13 @@ export default function index() {
 
           <div className="flex space-x-3">
             <MediaButton contactLink={"https://www.linkedin.com/in/vebers-zone-a50b242aa/"} iconName={"fa fa-linkedin"} />
-            <MediaButton contactLink={""} iconName={"fa fa-instagram"}/>
-            <MediaButton contactLink={""} iconName={"fa fa-youtube"}  />
-            <MediaButton contactLink={""} iconName={"fa fa-twitter"}  />
+            <MediaButton contactLink={"https://www.instagram.com/veberszone"} iconName={"fa fa-instagram"}/>
+            <MediaButton contactLink={whatsappUrl} iconName={"fa fa-whatsapp"}  />
           </div>
           <div className="flex space-y-6 flex-col">
             <SocialLinkCard contactLink={"Mailto:veberszone@gmail.com"} iconName={"fa-envelope"} heading="Mail" content="veberszone@gmail.com"/>
-            <SocialLinkCard contactLink={"tel:8319699485"} iconName={"fa-whatsapp"} heading="Whatsapp US: " content="+91 8319699485"/>
-            <SocialLinkCard contactLink={"github.com/gagan-baghel"} iconName={"fa-github"} heading="Github" content="gagan-baghel"/>
+            <SocialLinkCard contactLink={whatsappUrl} iconName={"fa-whatsapp"} heading="Whatsapp US: " content="+91 831 9699 485"/>
+            <SocialLinkCard contactLink={"tel:8319699485"} iconName={"fa-call"} heading="Call Us" content="+91 831 9699 485"/>
           </div>
         </div>
         <ContactCard/>

@@ -25,20 +25,20 @@ function Menu() {
         <NavLink to="/"  className={({ isActive }) => (isActive ? 'active-link' : 'a')} onclick={()=>setMenuOpen(false)}>
           Home
         </NavLink>
-        <NavLink to="/Services" className={({ isActive }) => (isActive ? 'active-link' : 'a')} onclick={()=>setMenuOpen(false)}> 
+        <NavLink to="/services" className={({ isActive }) => (isActive ? 'active-link' : 'a')} onclick={()=>setMenuOpen(false)}> 
           Services
         </NavLink>
-        <NavLink to="/Portfolio" className={({ isActive }) => (isActive ? 'active-link' : 'a')} onclick={()=>setMenuOpen(false)}>
+        <NavLink to="/portfolio" className={({ isActive }) => (isActive ? 'active-link' : 'a')} onclick={()=>setMenuOpen(false)}>
           Portfolio
         </NavLink>
-        <NavLink to="/AboutUs" className={({ isActive }) => (isActive ? 'active-link' : 'a')} onclick={()=>setMenuOpen(false)}>
+        <NavLink to="/aboutus" className={({ isActive }) => (isActive ? 'active-link' : 'a')} onclick={()=>setMenuOpen(false)}>
           About Us
         </NavLink>
-        <NavLink to="/ValentineDiary" className={({ isActive }) => (isActive ? 'active-link' : 'a')} onclick={()=>setMenuOpen(false)}>
+        <NavLink to="/valentinediary" className={({ isActive }) => (isActive ? 'active-link' : 'a')} onclick={()=>setMenuOpen(false)}>
           Valentine Diary 🧡 
         </NavLink>
       </div>
-       <Link to="/ContactUs" className="menubtn" onclick={()=>setMenuOpen(false)}>
+       <Link to="/contactus" className="menubtn" onclick={()=>setMenuOpen(false)}>
         Contact Us
         </Link>
     </nav>
@@ -49,20 +49,20 @@ function Menu() {
         <NavLink to="/"  className={({ isActive }) => (isActive ? 'active-link' : 'a')} onclick={()=>setMenuOpen(false)}>
           Home
         </NavLink>
-        <NavLink to="/Services" className={({ isActive }) => (isActive ? 'active-link' : 'a')} onclick={()=>setMenuOpen(false)}> 
+        <NavLink to="/services" className={({ isActive }) => (isActive ? 'active-link' : 'a')} onclick={()=>setMenuOpen(false)}> 
           Services
         </NavLink>
-        <NavLink to="/Portfolio" className={({ isActive }) => (isActive ? 'active-link' : 'a')} onclick={()=>setMenuOpen(false)}>
+        <NavLink to="/portfolio" className={({ isActive }) => (isActive ? 'active-link' : 'a')} onclick={()=>setMenuOpen(false)}>
           Portfolio
         </NavLink>
-        <NavLink to="/AboutUs" className={({ isActive }) => (isActive ? 'active-link' : 'a')} onclick={()=>setMenuOpen(false)}>
+        <NavLink to="/aboutus" className={({ isActive }) => (isActive ? 'active-link' : 'a')} onclick={()=>setMenuOpen(false)}>
           About Us
         </NavLink>
-        <NavLink to="/ValentineDiary" className={({ isActive }) => (isActive ? 'active-link' : 'a')} onclick={()=>setMenuOpen(false)}>
+        <NavLink to="/valentinediary" className={({ isActive }) => (isActive ? 'active-link' : 'a')} onclick={()=>setMenuOpen(false)}>
           Valentine Diary 🧡 
         </NavLink>
       </div>
-       <Link to="/ContactUs" className="menubtn" onclick={()=>setMenuOpen(false)}>
+       <Link to="/contactus" className="menubtn" onclick={()=>setMenuOpen(false)}>
         Contact Us
         </Link>
     </nav>)

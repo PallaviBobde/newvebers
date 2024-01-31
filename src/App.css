@@ -22,8 +22,22 @@ body {
   min-height: 100vh;
   width: 100vw;
   background-color: #161616;
-  background-image: url("https://res.cloudinary.com/dlksyxvtd/image/upload/v1706423658/vebers/va3ltcbtsqvzzshjalva.gif");
+  background-image: url("https://res.cloudinary.com/dlksyxvtd/image/upload/v1706423658/vebers/va3ltcbtsqvzzshjalva.gif") ;
   background-size: contain;
+  position: relative;
+  z-index: 1;
+}
+
+.page::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.7); 
+  z-index: 2;
 }
 
 
@@ -31,5 +45,17 @@ body {
     color: white;
     text-align: center;
     margin-bottom: 50px;
-    font-size: 6vw;
+    font-size: 5vw;
+    margin: 25px 20px;
+}
+
+
+@media screen and (max-width: 450px) {
+  .hideOnMobile{
+    display: none;
+  }
+}
+
+.in-page{
+  z-index: 3;
 }

@@ -13,7 +13,6 @@ function ValentineDiary() {
   )}`;
   return (
     <div className="valentine-diary">
-      {/* <Menu/> */}
       {/* <!-- Home Section --> */}
       <section id="home">
         <h1>
@@ -24,10 +23,6 @@ function ValentineDiary() {
           A <span className="highlight">Digital Gift</span> in the form of a{" "}
           <span className="highlight">Website!</span>
         </p>
-        {/* <img src={ribbon} className="ribbon" />
-      <img src={ribbon} className="ribbon1" />
-      <img src={ribbon} className="ribbon2" />
-      <img src={ribbon} className="ribbon4" /> */}
       </section>
 
       {/* <!-- About Section --> */}
@@ -47,27 +42,6 @@ function ValentineDiary() {
           </p>
         </div>
         <img src="https://cdn.pixabay.com/photo/2018/06/23/20/07/couple-3493435_1280.png" />
-        {/* <div className="">
-          <h2>Key Features:</h2>
-          <div className="inner-container">
-            <div>
-              <p className="emoji">🎨</p>
-              <p className="bold">Customizable Themes:</p>
-            </div>
-            <div>
-              <p className="emoji">🌐</p>
-              <p className="bold">Personalized Domain:</p>
-            </div>
-            <div>
-              <p className="emoji">📷</p>
-              <p className="bold">Photo Gallery & Love Notes:</p>
-            </div>
-            <div>
-              <p className="emoji">⏳</p>
-              <p className="bold">Interactive Timeline:</p>
-            </div>
-          </div>
-        </div> */}
       </section>
 
       {/* <!-- Features Section --> */}
@@ -92,18 +66,6 @@ function ValentineDiary() {
             <br />
           </p>
         </div>
-        {/* <div className="container">
-          <h2>Valentine Diary Website</h2>
-          <p>
-            Unveil your love story on our digital canvas. Just like the perfect
-            webpage, it captures all the elements to make your heart click—a
-            lasting tribute to your relationship.
-            <br />
-            <br />
-            Ready to turn the pages of your love story online? Explore Valentine
-            Diary today.
-          </p>
-        </div> */}
       </section>
 
       {/* <!-- Plans Section --> */}
@@ -150,7 +112,6 @@ function ValentineDiary() {
               >
                 Get Silver <i class="fas fa-chevron-right"></i>
               </Link>
-              {/*  */}
             </div>
           </div>
           <div className="plan-div">
@@ -257,17 +218,28 @@ function ValentineDiary() {
             <div>
               <p className="emoji">📞</p>
               <p className="bold">Call :</p>
-              <p>+91 8319699485</p>
+              <Link
+                to="tel:+918319699485"
+                className="contact_link"
+              >
+                +91 8319699485
+              </Link>
             </div>
             <div>
               <p className="emoji">📧</p>
               <p className="bold">Mail : </p>
-              <p>veberszone@gmail.com</p>
+              <Link
+                to="mailto:veberszone@gmail.com"
+                className="contact_link"
+              >veberszone@gmail.com</Link>
             </div>
             <div>
               <p className="emoji">📱</p>
               <p className="bold">Insta DM :</p>
-              <p>@Veberszone</p>
+              <Link
+                to="https://www.instagram.com/veberszone"
+                className="contact_link"
+              >@Veberszone</Link>
             </div>
           </div>
         </div>
@@ -288,7 +260,7 @@ function ValentineDiary() {
       <img src={ribbon} className="ribbon2" />
       <img src={ribbon} className="ribbon4" />
       <p className="go-to-veberszone">
-        <Link to="/">
+        <Link to="/" >
           Go to
           <br />
           VebersZone

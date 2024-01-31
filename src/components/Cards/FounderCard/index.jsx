@@ -6,7 +6,7 @@ function FoundersCard({name,designation,image,description,index}) {
   const htmlObject = { __html: myString };
 
   return (
-    <div className="founder-card bg-[#82828520] p-8 rounded-[10px] ">
+    <div className="founder-card  rounded-[10px] ">
         {(index === 0 || index===2) && <div className="img-container">
             <img src={image} className="img"/>
           </div>

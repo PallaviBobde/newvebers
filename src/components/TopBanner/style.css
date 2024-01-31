@@ -89,9 +89,9 @@
 }
 
 .btns .blue{
-  background-color: dodgerblue;
-  color: white;
-  padding: 10px 20px;
+  background-color: antiquewhite;
+  color: #CC1C46;
+  padding: 5px 20px;
   border-radius: 10px;
   font-weight: bold;
   width: fit-content;
@@ -99,8 +99,8 @@
 }
 
 .btns .whiteborder{
-  padding: 10px 20px;
-  border: 2px solid dodgerblue;
+  padding: 5px 20px;
+  border: 2px solid antiquewhite;
   border-radius: 10px;
   width: fit-content;
   font-weight: bold;
@@ -144,10 +144,11 @@
     }
 }
 
-@media screen and (max-width: 340px) {
+@media screen and (max-width: 390px) {
 
     .top-banner{
       height: 250px;
+      position: absolute;
     }
 
     .text .btns{
