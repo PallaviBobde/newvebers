@@ -20,67 +20,79 @@ function ValentineDiary() {
           Welcome to <br />
           <span className="bold">Valentine Diary</span>
         </h1>
-        <p>A <span className="highlight">Digital Gift</span> in the form of a{" "}
-            <span className="highlight">Website!</span></p>
-        <Link to={whatsappUrl} target="_blank" rel="noopener noreferrer">
-          Get Started
-        </Link>
+        <p>
+          A <span className="highlight">Digital Gift</span> in the form of a{" "}
+          <span className="highlight">Website!</span>
+        </p>
+        {/* <img src={ribbon} className="ribbon" />
+      <img src={ribbon} className="ribbon1" />
+      <img src={ribbon} className="ribbon2" />
+      <img src={ribbon} className="ribbon4" /> */}
       </section>
 
       {/* <!-- About Section --> */}
       <section id="about">
-        <div className="container">
+        <div className="">
           <h2>
-            About <br />
+            About
             Valentine Diary
           </h2>
           <p>
-            Valentine Diary is your go-to platform to express love and create
-            personalized digital memories. We believe in celebrating love in a
-            unique and thoughtful way.
+            Valentine Diary is like a special digital gift you can give your
+            loved one on Valentine's Day.
+            <br /> It's a website where you can share and relive all your
+            favorite memories together. It's not just a present; it's a way to
+            celebrate your unique love story in a fun and personalized way.
+            <br /> Create your Valentine Diary, and let the love unfold online
           </p>
         </div>
-        <div className="container">
+        <img src="https://cdn.pixabay.com/photo/2018/06/23/20/07/couple-3493435_1280.png" />
+        {/* <div className="">
           <h2>Key Features:</h2>
           <div className="inner-container">
             <div>
               <p className="emoji">🎨</p>
               <p className="bold">Customizable Themes:</p>
-              <p>Tailor the look to your style.</p>
             </div>
             <div>
               <p className="emoji">🌐</p>
               <p className="bold">Personalized Domain:</p>
-              <p>Choose a domain reflecting your love story.</p>
             </div>
             <div>
               <p className="emoji">📷</p>
               <p className="bold">Photo Gallery & Love Notes:</p>
-              <p>Showcase special moments with heartfelt messages.</p>
             </div>
             <div>
               <p className="emoji">⏳</p>
               <p className="bold">Interactive Timeline:</p>
-              <p>Navigate through the story of your love with each click.</p>
             </div>
           </div>
-        </div>
+        </div> */}
       </section>
 
       {/* <!-- Features Section --> */}
       <section id="features">
-        <div className="container">
+        <img src='https://res.cloudinary.com/dlksyxvtd/image/upload/v1706679743/you-removebg-preview_2_bf2ucy.png'/>
+        <div className="">
           <h2>Why Valentine Diary?</h2>
           <p>
-            Valentine Diary is not just a gift; it's a digital journey crafted
-            for your love story. Unlike traditional presents, it goes beyond
-            material gifts, offering a personalized touch that resonates on a
-            deeper, more sentimental level. Dive into a unique celebration of
-            shared moments and achievements through interactive elements and
-            curated collages.
+            🌟 Capture moments, cherish memories.
+            <br />
+            🎨 Customize with themes that reflect you.
+            <br />
+            💖 Express love with personalized notes.
+            <br />
+            📆 Relive the romance with an interactive timeline.
+            <br />
+            📷 Showcase favorite photos in a beautiful gallery.
+            <br />
+            ⏰ Countdown to special moments.
+            <br />
+            🌐 Get your unique web space with a custom domain.
+            <br />
           </p>
         </div>
-        <div className="container">
+        {/* <div className="container">
           <h2>Valentine Diary Website</h2>
           <p>
             Unveil your love story on our digital canvas. Just like the perfect
@@ -91,13 +103,13 @@ function ValentineDiary() {
             Ready to turn the pages of your love story online? Explore Valentine
             Diary today.
           </p>
-        </div>
+        </div> */}
       </section>
 
       {/* <!-- Plans Section --> */}
       <section id="plans">
         <h2>Plans</h2>
-        <p>
+        <p className="subtitle">
           Choose the perfect plan for your digital Valentine's gift and make
           this day unforgettable. Let the gifting begin!
         </p>
@@ -105,9 +117,9 @@ function ValentineDiary() {
           <div className="plan-div">
             <h3>Silver 💖</h3>
             <div>
-              <p>₹399</p>
-              <br/>
-              <br/>
+              <p className="price">₹399</p>
+              <p>❌ Multilingual</p>
+              <p>❌ Choose Colors</p>
               <p>
                 <b>Total Photos:</b> 15 or lesser
               </p>
@@ -117,19 +129,26 @@ function ValentineDiary() {
               <p>
                 <b>Supported Devices:</b> Only Phones
               </p>
-              <p>Non Customizable</p>
+              <p>
+                <b>Theme: </b>Non Customizable
+              </p>
               <p>
                 <b>Active:</b> For 4 months
               </p>
               <p>
-                <b>Love Story Timeline:</b> Not Included
+                <b>Additionals:</b>
               </p>
+              <p>❌ Couple Playlist</p>
+              <p>❌ Love Story Timeline</p>
+              <p>❌ Love Week Custom Emails</p>
               <br />
-              <br />
-              <br />
-              <br/>
-              <Link to={whatsappUrl} target="_blank" rel="noopener noreferrer">
-                Buy Now
+              <Link
+                to={whatsappUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="buy"
+              >
+                Get Silver <i class="fas fa-chevron-right"></i>
               </Link>
               {/*  */}
             </div>
@@ -137,9 +156,9 @@ function ValentineDiary() {
           <div className="plan-div">
             <h3>Gold 🌟</h3>
             <div>
-              <p>₹1199</p>
-              <br/>
-              <p>Choose Colors</p>
+              <p className="price">₹1199</p>
+              <p>❌ Multilingual</p>
+              <p>✅ Choose Colors</p>
               <p>
                 <b>Total Photos:</b> 40 or lesser
               </p>
@@ -149,28 +168,35 @@ function ValentineDiary() {
               <p>
                 <b>Supported Devices:</b> Phone, Desktops
               </p>
-              <p>Semi-Customizable</p>
+              <p>
+                <b>Theme: </b>Semi-Customizable
+              </p>
               <p>
                 <b>Active:</b> For 7 months
               </p>
               <p>
                 <b>Additionals:</b>
               </p>
-              <p>🎶 Couple Playlist</p>
+              <p>✅ Couple Playlist</p>
+              <p>❌ Love Story Timeline</p>
+              <p>❌ Love Week Custom Emails</p>
               <br />
-              <br />
-              <br/>
-              <Link to={whatsappUrl} target="_blank" rel="noopener noreferrer">
-                Buy Now
+              <Link
+                to={whatsappUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="buy"
+              >
+                Get Gold <i class="fas fa-chevron-right"></i>
               </Link>
             </div>
           </div>
           <div className="plan-div">
             <h3>Platinum ✨</h3>
             <div>
-              <p>₹2999</p>
-              <p>Multilingual</p>
-              <p>Choose Colors</p>
+              <p className="price">₹2999</p>
+              <p>✅ Multilingual</p>
+              <p>✅ Choose Colors</p>
               <p>
                 <b>Total Photos:</b> 100 or lesser
               </p>
@@ -180,19 +206,26 @@ function ValentineDiary() {
               <p>
                 <b>Supported Devices:</b> All devices
               </p>
-              <p>Fully Customizable</p>
+              <p>
+                <b>Theme: </b>Fully Customizable
+              </p>
               <p>
                 <b>Active:</b> For 12 months
               </p>
               <p>
                 <b>Additionals:</b>
               </p>
-              <p>🎶 Couple Playlist</p>
-              <p>⌛ Love Story Timeline</p>
-              <p>✉️ Love Week Custom Emails</p>
-              <br/>
-              <Link to={whatsappUrl} target="_blank" rel="noopener noreferrer">
-                Buy Now
+              <p>✅ Couple Playlist</p>
+              <p>✅ Love Story Timeline</p>
+              <p>✅ Love Week Custom Emails</p>
+              <br />
+              <Link
+                to={whatsappUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="buy"
+              >
+                Get Platinum <i class="fas fa-chevron-right"></i>
               </Link>
             </div>
           </div>
@@ -208,12 +241,19 @@ function ValentineDiary() {
             Valentine's gift - Valentine Diary, don't hesitate to get in touch
             with us.
           </p>
-          <p>
-            Whatsapp US:  <Link to={whatsappUrl} target="_blank" rel="noopener noreferrer">
+          <div className="inner-container">
+            <div>
+              <p className="emoji">📱</p>
+              <p className="bold">Whatsapp :</p>
+              <Link
+                to={whatsappUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="contact_link"
+              >
                 +91 8319699485
               </Link>
-          </p>
-          <div className="inner-container">
+            </div>
             <div>
               <p className="emoji">📞</p>
               <p className="bold">Call :</p>
