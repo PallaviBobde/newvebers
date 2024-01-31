@@ -11,7 +11,6 @@ function App() {
     <BrowserRouter classname="app">
           <div className='page flex justify-center'>
         <div className="max-w-[2000px] in-page">
-
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="/services" element={<Services />} />
@@ -21,7 +20,6 @@ function App() {
             <Route path="/valentinediary" element={<ValentineDiary />} />
           </Routes>
         </div>
-
       </div>
     </BrowserRouter>
   );
