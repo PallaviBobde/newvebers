@@ -204,8 +204,8 @@ function ValentineDiary() {
           </p>
           <div className="inner-container">
             <div>
-              <p className="emoji">📱</p>
-              <p className="bold">Whatsapp :</p>
+              <p className="emoji hideOnMobile">📱</p>
+              <p className="bold">Whatsapp : </p>
               <Link
                 to={whatsappUrl}
                 target="_blank"
@@ -216,8 +216,8 @@ function ValentineDiary() {
               </Link>
             </div>
             <div>
-              <p className="emoji">📞</p>
-              <p className="bold">Call :</p>
+              <p className="emoji hideOnMobile">📞</p>
+              <p className="bold">Call : </p>
               <Link
                 to="tel:+918319699485"
                 className="contact_link"
@@ -226,7 +226,7 @@ function ValentineDiary() {
               </Link>
             </div>
             <div>
-              <p className="emoji">📧</p>
+              <p className="emoji hideOnMobile">📧</p>
               <p className="bold">Mail : </p>
               <Link
                 to="mailto:veberszone@gmail.com"
@@ -234,8 +234,8 @@ function ValentineDiary() {
               >veberszone@gmail.com</Link>
             </div>
             <div>
-              <p className="emoji">📱</p>
-              <p className="bold">Insta DM :</p>
+              <p className="emoji hideOnMobile">📱</p>
+              <p className="bold">Insta DM : </p>
               <Link
                 to="https://www.instagram.com/veberszone"
                 className="contact_link"

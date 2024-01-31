@@ -100,7 +100,7 @@
 .valentine-diary .ribbon2{
  position: absolute;
   width: 100px;
-  bottom: 10vh;
+  top: 70vh;
   right: 10vw;
   animation: bounce 2s linear infinite;
 }
@@ -108,7 +108,7 @@
 .valentine-diary .ribbon4{
  position: absolute;
   width: 100px;
-  bottom: 15vh;
+  top: 80vh;
   left: 10vw;
   animation: bounce 2s linear infinite;
 }
@@ -301,8 +301,9 @@
     justify-content: center;
     align-items: center;
     padding: 10vh 0;
-     z-index: 999;
+    z-index: 999;
     position: relative;
+    min-height: 100%;
 }
 
 #contact-us .container{
@@ -347,6 +348,7 @@
     background-color: antiquewhite;
     color: #444;
     position: relative;
+    bottom: 0;
 }
 
 
@@ -372,5 +374,24 @@
   }
   #features img{
     display: none;
+  }
+
+}
+@media screen and (max-width: 760px) {
+  #contact-us .emoji{
+    display: none;
+  }
+
+  #contact-us .inner-container div{
+    display: flex;
+    width: 100%;
+  }
+
+}
+
+
+@media screen and (max-width: 450px) {
+  #contact-us .inner-container div{
+    font-size: 16px;
   }
 }
