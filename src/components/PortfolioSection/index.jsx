@@ -2,33 +2,24 @@ import React from 'react'
 import './style.css'
 import { portfolioImages } from '../../utils/constants';
 import MobileSlider from '../MobileSlider';
+import { Link } from 'react-router-dom';
 
 function PortfolioSection({isHomepage=false}) {
-  const flattenedImagesArray = portfolioImages.flat(Infinity);
+  const imagesArray = isHomepage ? portfolioImages.slice(0,6) : portfolioImages;
   return (
     <div className='portfolio'>
         <h1 className='heading'>Our Works</h1>
         <div className='portfolio-container'>
-          {portfolioImages.map((imgArray)=>{
-            const images = isHomepage ? imgArray.slice(0, 2) : imgArray;
-              return <div className='portfolio-inner-container'>
-                {
-                  images.map((imgUrl)=>{
-                    return <img src={imgUrl} />
-                  })
-                }
-              </div>
-          })}
-        </div>
-        <MobileSlider>
-                {
-                  flattenedImagesArray.map((imgUrl)=>{
-                    return <div className='img-holder'>
+          {imagesArray.map((imgUrl)=>{
+                    return <div className='portfolio-inner-container'>
                       <img src={imgUrl} />
                     </div>
-                  })
-                }
-        </MobileSlider>
+          })}
+        </div>
+        {
+          isHomepage && <Link to={'/portfolio'} className='more-btn'>View More</Link>
+        }
+        
     </div>
   )
 }

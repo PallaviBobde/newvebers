@@ -10,6 +10,6 @@
 
 @media screen and (max-width: 650px) {
     .testimonial-container{
-        display: none;
+        /* display: none; */
     }
 }

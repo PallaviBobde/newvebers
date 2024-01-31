@@ -2,10 +2,5 @@
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
-}
-
-@media screen and (max-width: 650px) {
-    .service-container{
-        display: none;
-    }
+    margin-bottom: 20px;
 }

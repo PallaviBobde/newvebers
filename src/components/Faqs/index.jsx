@@ -10,7 +10,7 @@ function FAQs() {
     <div className="faq-container">
       {
         faqs.map((faq,index)=>{
-          return <div className="faq">
+          return <div className={`faq ${index>2 ? 'hideOnMobile' :''}`}>
             <div className={`question ${index===activeIndex ? 'active-question' :''}`}>
               <p>
                 {faq.question}

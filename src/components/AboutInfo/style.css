@@ -1,35 +1,32 @@
 .aboutInfo{
     color: white;
-    margin: 50px 5vw;
+    margin: 20px auto;
+    width: 90%;
+    text-align: center;
 }
 
 .aboutInfo .container{
     display: flex;
-    align-items: center;
+    width: 100%;
 }
 
 .aboutInfo h1{
-    font-size: 60px;
-}
-
-.aboutInfo h2{
-    margin-bottom: 10px;
-    color: dodgerblue;
-    text-transform: uppercase;
-    font-size: 14px;
+    font-size: 5vw;
+    text-align: center;
 }
 
 .aboutInfo p{
     font-size: 18px;
 }
 
-.aboutInfo .img{
-    height: 300px;
-    margin: 50px 20px;
-    border-radius: 10px;
+@media screen and (max-width: 750px) {
+    .out-description{
+        display: none;
+    }
 }
 
-.inner-container{
-    flex: 1;
-    padding: 30px;
+@media screen and (max-width: 700px) {
+    .aboutInfo p{
+       font-size: 14px;
+    }
 }

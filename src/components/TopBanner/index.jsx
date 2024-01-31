@@ -41,7 +41,7 @@ function TopBanner() {
           <p>Get a gift for your loved ones!</p>
           <div className="btns">
             <Link to={whatsappUrl} target="_blank" rel="noopener noreferrer" className="blue">WhatsApp Us</Link>
-            <Link to="/ValentineDiary" className="whiteborder">
+            <Link to="/valentinediary" className="whiteborder">
               Valentine Diary
             </Link>
           </div>
