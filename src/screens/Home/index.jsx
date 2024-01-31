@@ -8,15 +8,15 @@ import Testimonials from '../../components/Testimonials';
 import FAQs from '../../components/Faqs';
 import GetFreeConsultation from '../../components/Cards/GetFreeConsultation';
 import PortfolioSection from '../../components/PortfolioSection';
+import TopBanner from '../../components/TopBanner';
 
 function Home() {
-  return (
-<>
-
+  return (<>
+      <TopBanner/>
       <Menu/>
       <LandingInfo/>
       <ServicesSection />
-      {/* <GetFreeConsultation/> */}
+      <GetFreeConsultation/>
       <PortfolioSection isHomepage />
       <Testimonials/>
       <FAQs/>

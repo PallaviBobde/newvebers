@@ -34,6 +34,9 @@ function Menu() {
         <NavLink to="/AboutUs" className={({ isActive }) => (isActive ? 'active-link' : 'a')} onclick={()=>setMenuOpen(false)}>
           About Us
         </NavLink>
+        <NavLink to="/ValentineDiary" className={({ isActive }) => (isActive ? 'active-link' : 'a')} onclick={()=>setMenuOpen(false)}>
+          Valentine Diary 🧡 
+        </NavLink>
       </div>
        <Link to="/ContactUs" className="menubtn" onclick={()=>setMenuOpen(false)}>
         Contact Us
@@ -54,6 +57,9 @@ function Menu() {
         </NavLink>
         <NavLink to="/AboutUs" className={({ isActive }) => (isActive ? 'active-link' : 'a')} onclick={()=>setMenuOpen(false)}>
           About Us
+        </NavLink>
+        <NavLink to="/ValentineDiary" className={({ isActive }) => (isActive ? 'active-link' : 'a')} onclick={()=>setMenuOpen(false)}>
+          Valentine Diary 🧡 
         </NavLink>
       </div>
        <Link to="/ContactUs" className="menubtn" onclick={()=>setMenuOpen(false)}>

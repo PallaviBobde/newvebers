@@ -1,0 +1,311 @@
+
+*{
+    box-sizing: border-box;
+}
+.valentine-diary{
+    width: 100vw;
+    min-height: 100vh;
+    background-color: #CC1C46;
+    color: white;
+    font-family: 'Fredoka', sans-serif;
+    font-size: 20px;
+}
+
+.valentine-diary section{
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* absolute images started */
+
+.valentine-diary  .heart{
+  position: fixed;
+  top: 0;
+  left: 10vw;
+  width: 20vw;
+  opacity: 0.3;
+  animation: scale 8s linear infinite;
+}
+.valentine-diary  .heart1{
+  position: fixed;
+  top: 60vh;
+  left: 5vw;
+  width: 10vw;
+  opacity: 0.1;
+  animation: scale 6s linear infinite;
+}
+
+.valentine-diary  .heart2{
+  position: fixed;
+  top: -10vh;
+  right: 15vw;
+  width: 20vw;
+  opacity: 0.1;
+  animation: scale 5s linear infinite;
+}
+.valentine-diary  .heart3{
+  position: fixed;
+  top: 70vh;
+  right: 5vw;
+  width: 15vw;
+  opacity: 0.3;
+  animation: scale 3s linear infinite;
+}
+
+.valentine-diary  .heart4{
+  position: fixed;
+  bottom: -20vh;
+  left: 10vw;
+  width: 20vw;
+  opacity: 0.3;
+  animation: scale 2s linear infinite;
+}
+
+.valentine-diary  .heart5{
+  position: fixed;
+  top: 15vh;
+  left: 35vw;
+  opacity: 0.2;
+  animation: scale 8s linear infinite;
+}
+
+.valentine-diary  .heart6{
+  position: fixed;
+  top: -10vh;
+  left: 25vw;
+  width: 50vw;
+  opacity: 0.2;
+}
+
+
+.valentine-diary  .ribbon{
+  position: fixed;
+  width: 100px;
+  top: 10vh;
+  transform: rotate(30deg);
+  animation: bounce 2s linear infinite;
+}
+.valentine-diary  .ribbon1{
+  position: fixed;
+  width: 80px;
+  top: 5vh;
+  right:10vw;
+  animation: bounce 2s linear infinite;
+}
+.valentine-diary .ribbon2{
+  position: fixed;
+  width: 100px;
+  bottom: 10vh;
+  right: 10vw;
+  animation: bounce 2s linear infinite;
+}
+
+.valentine-diary .ribbon4{
+  position: fixed;
+  width: 100px;
+  bottom: 15vh;
+  left: 10vw;
+  animation: bounce 2s linear infinite;
+}
+@keyframes scale {
+      0%, 100% {
+        transform:  scale(0.5);
+      }
+      50% {
+        transform:  scale(1); 
+      }
+    }
+
+@keyframes bounce {
+      0%, 100% {
+        transform: translateY(0); 
+      }
+      50% {
+        transform: translateY(-20px); 
+      }
+    }
+/* absolute images ended */
+
+
+/* home */
+#home{
+    text-align: center;
+    font-weight: 600;
+     z-index: 999;
+    position: relative;
+}
+#home .bold{
+    font-size: 10vw;
+    font-family: 'Rubik Moonrocks', sans-serif;
+}
+
+
+/* about */
+
+#about{
+    background-color: antiquewhite;
+    color: #444;
+    display: flex;
+    flex-wrap: wrap;
+     /* z-index: 999;
+    position: relative; */
+}
+
+.valentine-diary .container{
+    flex: 1;
+    padding: 10vh 10vw 0 10vw;
+    /* min-width: 400px; */
+    font-size: 20px;
+     z-index: 999;
+    position: relative;
+}
+.valentine-diary .inner-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#about .inner-container div{
+    padding: 10px;
+    width: 20vw;
+    min-width: 200px;
+}
+
+#about .bold{
+    color: #CC1C46;
+}
+
+#about .emoji{
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+/* features */
+#features{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+     z-index: 999;
+    position: relative;
+}
+
+#features h2, #contact-us h2{
+    color: antiquewhite;
+}
+
+#features .container{
+    padding: 10vh 10vw;
+}
+
+/* plans */
+#plans{
+    background-color: antiquewhite;
+    color: black;
+    padding: 10px;
+}
+.plans-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.plan-div{
+    background-color:#CC1C46;
+    color: white;
+    z-index: 89;
+    border-radius: 10px;
+    margin: 10px;
+    padding-bottom: 10px;
+}
+.plan-div div{
+    padding: 10px;
+}
+.plan-div h3{
+    font-weight: bold;
+    background-color: aliceblue;
+    color: #CC1C46;
+    padding: 10px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.plan-div b{
+    color: greenyellow;
+}
+
+.plans .additionals{
+    margin:0 0 0 0;
+}
+
+.valentine-diary button,.valentine-diary a{
+    background-color: dodgerblue;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+    position:relative;
+    z-index: 89999;
+}
+
+/* contact-us */
+#contact-us{
+    /* background-color: antiquewhite; */
+    /* color: black; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10vh 0;
+     z-index: 999;
+    position: relative;
+}
+
+#contact-us .container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#contact-us .inner-container{
+    height: 300px;
+    justify-content: center;
+}
+#contact-us .inner-container div{
+    border: 2px solid antiquewhite;
+    margin: 10px;
+    padding: 10px;
+    height: fit-content;
+    border-radius: 10px;
+}
+#contact-us button{
+    color: white;
+}
+
+/* h2 */
+.valentine-diary h2{
+    color: #CC1C46;
+    font-weight: bold;
+    font-size: 30px;
+    font-family: 'Rubik Moonrocks', sans-serif;
+}
+
+/* footer */
+.valentine-diary footer{
+    text-align: center;
+    padding: 20px;
+    background-color: antiquewhite;
+    color: #444;
+}
+
+
+.go-to-veberszone a{
+    color: white;
+    background-color: transparent;
+    position: absolute;
+    top: 0;
+    padding: 20px;
+}
