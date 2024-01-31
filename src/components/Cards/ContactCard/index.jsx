@@ -3,8 +3,8 @@ import React from 'react'
 export default function index() {
   return (<div className=" w-full lg:w-1/2 flex items-center my-12 justify-center">
   <form
-    action="https://formsubmit.co/8dceccfc7d1a6ea003ce596aa34236d6"
-    method="POST"
+   action="https://formspree.io/f/xeqyorvg"
+            method="POST" 
     className="mx-2 w-full max-w-lg bg-[#161616] border border-[#8892B030] rounded-md px-8 py-10 sm:py-14 lg:w-full"
     style={{ boxShadow: "0 12px 105px 0 #1e90ff12" }}
   >
