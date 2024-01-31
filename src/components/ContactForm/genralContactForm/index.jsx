@@ -16,15 +16,15 @@ export default function index() {
       id="Contact"
       className="relative py-4 flex flex-col sm:px-28 sm:pb-36 pb-8 text-white "
     >
-      <div className=" flex-col my-12 bg-[#82828520] p-8 rounded-[10px] hideonphone">
+      <div className=" flex-col my-12 bg-[#82828520] p-8 rounded-[10px] hideOnMobile">
         <h2 className=" text-[2rem] sm:text-[4rem] ">Have a question or want to get in touch</h2>
-        <p className="sm:px-4 my-4 text-[1rem] sm:text-[1.2rem] text-[#1e8fffe4]">
+        <p className="sm:px-4 my-4 text-[1rem] sm:text-[1.2rem] text-[#1e8fffe4] ">
           We would love to hear from you! Feel free to reach out through any
           of the following methods
         </p>
       </div>
 
-      <div className=" flex-col space-y-2 my-6 bg-[#82828520] sm:p-10 rounded-[10px] hideonphone">
+      <div className=" flex-col space-y-2 my-6 bg-[#82828520] sm:p-10 rounded-[10px] hideOnMobile">
         <p className="text-[1.4rem] p-4">LOCATIONS AND MAPs </p>
         <div className="flex p-8">
           <LocationCard />
