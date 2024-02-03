@@ -5,7 +5,7 @@ import { phoneNumber } from "../../utils/constants";
 import { Link } from "react-router-dom";
 
 function LandingInfo() {
-  const whatsappUrl = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent('I want a Valentine Diary Website')}`;
+  const whatsappUrl = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent('I want to connect for')}`;
   const [text, setText] = useState('Website');
   const texts = ['Website', 'Logo Design', 'Insta Page', 'Ecommerce', 'Mobile App'];
   let index = 0;
