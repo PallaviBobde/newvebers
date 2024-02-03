@@ -1,6 +1,17 @@
-
-.hideonphone{
+.connect-btn{
+    border: 2px solid dodgerblue;
+    padding: 10px 20px;
+    color: dodgerblue;
+    border-radius: 30px;
+    margin: 10px;
+    width: 100%;
+}
+.showOnMobile{
+    text-align: center;
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    display:none;
 }
 
 @media screen and (max-width: 650px) {

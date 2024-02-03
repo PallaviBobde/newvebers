@@ -72,7 +72,11 @@
         flex-direction: column;
         height: 90vh;
         justify-content: space-around;
+        align-items: center;
         background-color: #111;
+    }
+    .menu .a,.menu .active-link{
+        text-align: center;
     }
     .menu div{
         display: flex;

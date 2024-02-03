@@ -35,15 +35,14 @@ function Menu() {
           About Us
         </NavLink>
         <NavLink to="/valentinediary" className={({ isActive }) => (isActive ? 'active-link' : 'a')} onclick={()=>setMenuOpen(false)}>
-          Valentine Diary 🧡 
+          Valentine Diary 
         </NavLink>
       </div>
        <Link to="/contactus" className="menubtn" onclick={()=>setMenuOpen(false)}>
         Contact Us
         </Link>
     </nav>
-    
-    {isMenuOpen &&  (<nav className="menu open" id="menu">
+    {isMenuOpen &&  (<nav className="menu" id="menu">
       <NavLink to="/" className="logo logomenu"><img src={Logo} alt="Description of the image" /></NavLink>
       <div>
         <NavLink to="/"  className={({ isActive }) => (isActive ? 'active-link' : 'a')} onclick={()=>setMenuOpen(false)}>
@@ -59,12 +58,12 @@ function Menu() {
           About Us
         </NavLink>
         <NavLink to="/valentinediary" className={({ isActive }) => (isActive ? 'active-link' : 'a')} onclick={()=>setMenuOpen(false)}>
-          Valentine Diary 🧡 
+          Valentine Diary
+        </NavLink>
+        <NavLink to="/contactus" className={({ isActive }) => (isActive ? 'active-link' : 'a')} onclick={()=>setMenuOpen(false)}>
+        Contact Us
         </NavLink>
       </div>
-       <Link to="/contactus" className="menubtn" onclick={()=>setMenuOpen(false)}>
-        Contact Us
-        </Link>
     </nav>)
     }
     

@@ -5,11 +5,11 @@ export default function index() {
   <form
    action="https://formspree.io/f/xeqyorvg"
             method="POST" 
-    className=" sm:mx-2 w-full max-w-lg bg-[#161616] border border-[#8892B030] rounded-md px-4 sm:px-8 py-6 sm:py-14 lg:w-full"
-    style={{ boxShadow: "0 12px 105px 0 #1e90ff12" }}
+    className=" sm:mx-2 w-full max-w-lg bg-[#161616] rounded-md px-4 sm:px-8 py-6 sm:py-14 lg:w-full"
+    // style={{ boxShadow: "0 12px 105px 0 #1e90ff12" }}
   >
     <h1 className="text-[#8892B0] text-center md:text-4xl text-3xl py-6 pb-10 smooth-italic">
-      Contact Form &nbsp;{" "}
+      Message Us &nbsp;{" "}
       <i className="fa-solid fa-envelope hover:text-[#1e90ff]" />
     </h1>
     <div className="flex flex-wrap -mx-3 ">
@@ -61,7 +61,7 @@ export default function index() {
     <div className="flex w-full justify-end ">
       <button
         id="contactBtn"
-        className="rounded-[10px] opacity-80 border-[1px] text-[#1e90ff] border-[#1e90ff] hover:text-[#8892B0]  hover:border-[#8892b088]  py-3 my-3 px-4 text-[1rem]"
+        className="rounded-[30px] opacity-80 border-[1px] text-[#1e90ff] border-[#1e90ff] hover:text-[#8892B0]  hover:border-[#8892b088]  py-3 my-3 px-4 text-[1rem]"
         onclick="contactbutton()"
       >
         Send your Message

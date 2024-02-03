@@ -10,12 +10,12 @@ function FAQs() {
     <div className="faq-container">
       {
         faqs.map((faq,index)=>{
-          return <div className={`faq ${index>2 ? 'hideOnMobile' :''}`}>
+          return <div className={`faq ${index>2 ? 'hideOnMobile' :''}`} onClick={()=>setActiveIndex(index===activeIndex ? -1 : index)}>
             <div className={`question ${index===activeIndex ? 'active-question' :''}`}>
               <p>
                 {faq.question}
               </p>
-              <p className="plus" onClick={()=>setActiveIndex(index===activeIndex ? -1 : index)}>{index===activeIndex ? '-' : '+' }</p>
+              <p className="plus" >{index===activeIndex ? '-' : '+' }</p>
             </div>
             <div className={`answer ${index===activeIndex ? 'active-answer' :''}`} >{faq.answer}</div>
           </div>

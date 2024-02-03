@@ -36,15 +36,16 @@ function Footer() {
        <Link to="/contactus" className="a hideOnMobile">
         Contact Us
         </Link>
+        <Link to="/valentinediary" className="a hideOnMobile">
+          Valentine Diary 
+        </Link>
     </div>
     <div className="contact-container">
       <p className="footer-heading hideOnMobile">Get in contact with us!</p>
       <ContactForm/>
       <div className="icons">
             <MediaButton contactLink={"https://www.linkedin.com/in/vebers-zone-a50b242aa/"} iconName={"fa fa-linkedin"} />
-            <div>{' '}</div>
             <MediaButton contactLink={"https://www.instagram.com/veberszone"} iconName={"fa fa-instagram"}/>
-            <div>{' '}</div>
             <MediaButton contactLink={whatsappUrl} iconName={"fa fa-whatsapp"}  />
       </div>
     </div>

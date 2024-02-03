@@ -10,7 +10,7 @@ export default function index() {
             loading="lazy">
         </img>
         <p className="px-2 text-[1.4rem] ">VebersZone Office - 1 </p>
-        <p className="px-2 text-[1.1rem] text-[#1e8fffe4]">Viman Nagar, Pune Maharastra, India <br/> 411014</p>
+        <p className="px-2 text-[1.1rem] text-[#1e8fffe4]">Viman Nagar, Pune, <br/>Maharastra, India <br/> 411014</p>
     </div>
   )
 }
