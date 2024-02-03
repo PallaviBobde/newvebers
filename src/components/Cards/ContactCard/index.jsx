@@ -5,7 +5,7 @@ export default function index() {
   <form
    action="https://formspree.io/f/xeqyorvg"
             method="POST" 
-    className="mx-2 w-full max-w-lg bg-[#161616] border border-[#8892B030] rounded-md px-8 py-10 sm:py-14 lg:w-full"
+    className=" sm:mx-2 w-full max-w-lg bg-[#161616] border border-[#8892B030] rounded-md px-4 sm:px-8 py-6 sm:py-14 lg:w-full"
     style={{ boxShadow: "0 12px 105px 0 #1e90ff12" }}
   >
     <h1 className="text-[#8892B0] text-center md:text-4xl text-3xl py-6 pb-10 smooth-italic">
@@ -40,15 +40,6 @@ export default function index() {
           placeholder="Subject"
         />
       </div>
-      <div className="w-full px-3 py-2 ">
-        <input
-          className="h-12 appearance-none block w-full bg-[#161616] text-[#1e90ff] border border-[#8892B030] py-2 px-4 leading-tight focus:outline-none  focus:bg-[#1e90ff20] rounded-[10px]"
-          id="grid-last-name"
-          type="text"
-          name="subject"
-          placeholder="Subject"
-        />
-      </div>
     </div>
     <div className="flex flex-wrap -mx-3 ">
       <div className="w-full px-3 py-2">
@@ -63,7 +54,7 @@ export default function index() {
         <input
           type="hidden"
           name="_next"
-          defaultValue="https://gagan-baghel.github.io/gagan_baghel_Portfolio/#Contact"
+          defaultValue="https://veberszone.com/"
         />
       </div>
     </div>

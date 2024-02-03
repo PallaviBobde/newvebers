@@ -30,7 +30,7 @@ export default function index() {
           <LocationCard />
         </div>
       </div>
-      <div className="w-full lg:flex-row flex-col flex z-10 bg-[#82828520] p-8 rounded-[10px]">
+      <div className="w-full lg:flex-row flex-col flex z-10 bg-[#82828520] p-4 sm:p-8 rounded-[10px]">
 
         <div className="lg:w-1/2 w-full sm:p-24 flex flex-col flex-1 text-white space-y-10 justify-around">
           <div className="flex flex-col space-y-2 ">
