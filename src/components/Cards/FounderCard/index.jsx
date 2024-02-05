@@ -14,9 +14,8 @@ function FoundersCard({name,designation,image,description,index}) {
        <div className="text-container">
         <h1 className="h1">{name}</h1>
         <h2 style={{fontSize:'14px'}}>{designation}</h2>
-        <p className="about text-[#ffffffa1]" dangerouslySetInnerHTML={htmlObject}>
+        <p className="about text-[#ffffffa1] hideOnMobile" dangerouslySetInnerHTML={htmlObject}>
         </p>
-        {/* links */}
        </div>
        {index === 1 && <div className="img-container">
             <img src={image} className="img"/>
