@@ -4,7 +4,7 @@
     color: dodgerblue;
     border-radius: 30px;
     margin: 10px;
-    width: 100%;
+    width: fit-content;
 }
 .showOnMobile{
     text-align: center;

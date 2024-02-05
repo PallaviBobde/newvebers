@@ -9,7 +9,7 @@ function Footer() {
   const whatsappUrl = `https://api.whatsapp.com/send?phone=${phoneNumber}&text=${encodeURIComponent(
     "I want a Website"
   )}`;
-  return <div className="footer">
+  return <div className="footer normal-text">
     <div className="address-container ">
       <p className="footer-heading ">Feel free to reach out </p>
       <p>If you have any questions or if you'd like to discuss your project further. We're here to help you succeed online.</p>

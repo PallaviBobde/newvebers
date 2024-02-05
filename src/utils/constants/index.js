@@ -126,16 +126,16 @@ export const TeamMembers = [
 ];
 
 export const portfolioImages = [
-  "https://res.cloudinary.com/dlksyxvtd/image/upload/v1706993552/vebers/gj2uw49bureqvlavhqs1.jpg",
+  "https://res.cloudinary.com/dlksyxvtd/image/upload/v1706993611/vebers/no4eucvnclxrujaypaj0.jpg",
+  "https://res.cloudinary.com/dlksyxvtd/image/upload/v1706993584/vebers/luodiplvd7d2nollli03.jpg",
+  "https://res.cloudinary.com/dlksyxvtd/image/upload/v1706993575/vebers/drul4bvuqyilbmrgpsg4.jpg",
   "https://res.cloudinary.com/dlksyxvtd/image/upload/v1706993559/vebers/xders9o1ldbjjudh7oar.jpg",
   "https://res.cloudinary.com/dlksyxvtd/image/upload/v1706993567/vebers/igsco3immvb73apoozyu.jpg",
-  "https://res.cloudinary.com/dlksyxvtd/image/upload/v1706993575/vebers/drul4bvuqyilbmrgpsg4.jpg",
-  "https://res.cloudinary.com/dlksyxvtd/image/upload/v1706993584/vebers/luodiplvd7d2nollli03.jpg",
-  "https://res.cloudinary.com/dlksyxvtd/image/upload/v1706993611/vebers/no4eucvnclxrujaypaj0.jpg",
   "https://res.cloudinary.com/dlksyxvtd/image/upload/v1706993618/vebers/uimyoajnxoo6yqvhbmnq.jpg",
   "https://res.cloudinary.com/dlksyxvtd/image/upload/v1706993626/vebers/yqygjjxymceprwlbo9l5.jpg",
-  "https://res.cloudinary.com/dlksyxvtd/image/upload/v1706993632/vebers/bpuqax2spvzaeyzviqif.jpg",
   "https://res.cloudinary.com/dlksyxvtd/image/upload/v1706993638/vebers/qrdkhphtlcrkdlko2is8.jpg",
+  "https://res.cloudinary.com/dlksyxvtd/image/upload/v1706993552/vebers/gj2uw49bureqvlavhqs1.jpg",
+  "https://res.cloudinary.com/dlksyxvtd/image/upload/v1706993632/vebers/bpuqax2spvzaeyzviqif.jpg",
 
   // "https://res.cloudinary.com/dlksyxvtd/image/upload/v1706422794/vebers/x0vlywsrfhukz9po2jv1.png",
   // "https://res.cloudinary.com/dlksyxvtd/image/upload/v1706422729/vebers/heos8cvflrh5jkismcog.png",

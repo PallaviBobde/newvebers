@@ -6,14 +6,14 @@ function FoundersCard({name,designation,image,description,index}) {
   const htmlObject = { __html: myString };
 
   return (
-    <div className="founder-card  rounded-[10px] ">
+    <div className="founder-card  rounded-[10px] normal-text">
         {(index === 0 || index===2) && <div className="img-container">
             <img src={image} className="img"/>
           </div>
         }
        <div className="text-container">
         <h1 className="h1">{name}</h1>
-        <h2>{designation}</h2>
+        <h2 style={{fontSize:'14px'}}>{designation}</h2>
         <p className="about text-[#ffffffa1]" dangerouslySetInnerHTML={htmlObject}>
         </p>
         {/* links */}

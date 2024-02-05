@@ -36,7 +36,7 @@
     display: flex;
     align-items: center;
     margin-top: 20px;
-    border-top: 2px solid #888;
+    border-top: 1px solid #888;
     padding-top: 10px;
 }
 .customer img{
@@ -56,13 +56,7 @@
 }
 
 .description{
-    font-size: 18px;
-}
-
-.out-description{
-    color: white;
-     width: 80vw;
-     margin: auto;
+    color: gray;
 }
 
 @media screen and (max-width: 450px) {
@@ -80,11 +74,6 @@
        margin-top: 0px;
        border-top: none;
        float: right;
-       font-size: 14px;
-    }
-
-    .description{
-        font-size: 14px;
     }
 
     .customer div{

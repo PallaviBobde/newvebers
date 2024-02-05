@@ -31,7 +31,6 @@
     margin: 5px 0 20px 0;
     text-transform: uppercase;
     color: dodgerblue;
-    font-size: 14px;
 }
 
 .founder-card .img-container{
@@ -64,13 +63,6 @@
 
     .founder-card .img-container{
         width: 80%;
-    }
-
-}
-
-@media screen and (max-width: 700px) {
-    .text-container p{
-        font-size: 14px;
     }
 
 }

@@ -6,8 +6,8 @@ function FAQs() {
   const [activeIndex,setActiveIndex] = useState(-1);
 
   return <div className="faqs">
-    <h1 className="heading">Faqs</h1>
-    <div className="faq-container">
+    <h1 className="sub-heading">Frequently asked questions</h1>
+    <div className="faq-container normal-text">
       {
         faqs.map((faq,index)=>{
           return <div className={`faq ${index>2 ? 'hideOnMobile' :''}`} onClick={()=>setActiveIndex(index===activeIndex ? -1 : index)}>

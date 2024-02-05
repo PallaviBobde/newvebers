@@ -8,7 +8,6 @@ import TopBanner from '../../components/TopBanner';
 function Portfolio() {
   return (
     <>
-     <TopBanner/>
         <Menu/>
         <PortfolioSection />
         <Footer/>

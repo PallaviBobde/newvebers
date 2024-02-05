@@ -9,7 +9,7 @@ export default function index() {
     // style={{ boxShadow: "0 12px 105px 0 #1e90ff12" }}
   >
     <h1 className="text-[#8892B0] text-center md:text-4xl text-3xl py-6 pb-10 smooth-italic">
-      Message Us &nbsp;{" "}
+      Contact Us &nbsp;{" "}
       <i className="fa-solid fa-envelope hover:text-[#1e90ff]" />
     </h1>
     <div className="flex flex-wrap -mx-3 ">
@@ -19,7 +19,8 @@ export default function index() {
           id="grid-first-name"
           type="text"
           name="user_name"
-          placeholder="Full Name"
+          placeholder="Name"
+          required
         />
       </div>
       <div className="w-full lg:w-1/2 px-3 py-2 lg:pt-0  ">
@@ -29,6 +30,7 @@ export default function index() {
           type="email"
           name="user_email"
           placeholder="Email"
+          required
         />
       </div>
       <div className="w-full px-3 py-2 ">
@@ -36,8 +38,8 @@ export default function index() {
           className="h-12 appearance-none block w-full bg-[#161616] text-[#1e90ff] border border-[#8892B030] py-2 px-4 leading-tight focus:outline-none  focus:bg-[#1e90ff20] rounded-[10px]"
           id="grid-last-name"
           type="text"
-          name="subject"
-          placeholder="Subject"
+          name="phonenumber"
+          placeholder="Phone number"
         />
       </div>
     </div>
@@ -50,6 +52,7 @@ export default function index() {
           name="user_msg"
           placeholder="Message"
           defaultValue={""}
+          required
         />
         <input
           type="hidden"

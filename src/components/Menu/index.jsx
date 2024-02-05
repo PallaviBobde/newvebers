@@ -19,7 +19,7 @@ function Menu() {
       <div class="menu-icon showonphone" onClick={toggleMenu} > {isMenuOpen  ? 'X' : '☰'}</div>
     </div>
 
-    <nav className="menu showondesktop" id="menu">
+    <nav className="menu showondesktop normal-text" id="menu">
       <NavLink to="/" className="logo logomenu"><img src={Logo} alt="Description of the image" /></NavLink>
       <div>
         <NavLink to="/"  className={({ isActive }) => (isActive ? 'active-link' : 'a')} onclick={()=>setMenuOpen(false)}>
@@ -42,7 +42,7 @@ function Menu() {
         Contact Us
         </Link>
     </nav>
-    {isMenuOpen &&  (<nav className="menu" id="menu">
+    {isMenuOpen &&  (<nav className="menu normal-text" id="menu">
       <NavLink to="/" className="logo logomenu"><img src={Logo} alt="Description of the image" /></NavLink>
       <div>
         <NavLink to="/"  className={({ isActive }) => (isActive ? 'active-link' : 'a')} onclick={()=>setMenuOpen(false)}>

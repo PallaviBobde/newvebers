@@ -14,7 +14,7 @@ export default function index() {
   return (
     <section
       id="Contact"
-      className="relative py-4 flex flex-col sm:px-28 sm:pb-36 pb-8 text-white "
+      className="relative py-4 flex flex-col sm:px-28 sm:pb-36 pb-8 text-white normal-text"
     >
 
      

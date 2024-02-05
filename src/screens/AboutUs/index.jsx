@@ -12,12 +12,9 @@ function AboutUs() {
   
   return (
     <>
-     <TopBanner/>
       <Menu />
       <AboutInfo/>
       <OurFounders/>
-      {/* <AboutWhySection/> */}
-      {/* <GetFreeConsultation/> */}
       <Footer />
       </>
   );

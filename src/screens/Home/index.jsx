@@ -6,7 +6,6 @@ import LandingInfo from '../../components/LandingInfo';
 import ServicesSection from '../../components/ServicesSection';
 import Testimonials from '../../components/Testimonials';
 import FAQs from '../../components/Faqs';
-import GetFreeConsultation from '../../components/Cards/GetFreeConsultation';
 import PortfolioSection from '../../components/PortfolioSection';
 import TopBanner from '../../components/TopBanner';
 
@@ -16,7 +15,6 @@ function Home() {
       <Menu/>
       <LandingInfo/>
       <ServicesSection />
-      {/* <GetFreeConsultation/> */}
       <PortfolioSection isHomepage />
       <Testimonials/>
       <FAQs/>

@@ -18,18 +18,11 @@
 }
 
 .landingInfo h1 {
-  font-size: 60px;
   margin: 30px;
   text-align: center;
   max-width: 80vw;
   font-weight: 500;
   line-height: 80px;
-}
-
-.landingInfo p {
-  max-width: 800px;
-  text-align: center;
-  font-size: 18px;
 }
 
 .landingInfo .fa-angle-down {
@@ -49,7 +42,6 @@
   color: dodgerblue;
   transition: linear;
   animation: text-change 1s ease-in-out forwards;
-  font-size: 90px;
 }
 
 @keyframes text-change {
@@ -58,16 +50,10 @@
 }
 
 @media screen and (max-width: 450px) {
-  .landingInfo h1 {
-    margin: 10px;
-  }
 
   .landingInfo h1 {
-    font-size: 30px;
+    margin: 10px;
     line-height: 40px;
-  }
-  .landingInfo  .main-text{
-    font-size: 40px;
   }
 
 }
@@ -80,21 +66,13 @@
 
 @media screen and (max-width: 650px) and (min-width: 450px) {
   .landingInfo h1 {
-    font-size: 40px;
     line-height: 50px;
-  }
-  .landingInfo  .main-text{
-    font-size: 60px;
   }
 }
 
 
 @media screen and (max-width: 835px) and (min-width: 650px) {
   .landingInfo h1 {
-    font-size: 50px;
     line-height: 60px;
-  }
-  .landingInfo  .main-text{
-    font-size: 70px;
   }
 }

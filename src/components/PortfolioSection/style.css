@@ -67,7 +67,6 @@
     color: dodgerblue;
     font-weight: bold;
     font-size: 20px;
-    margin: 10px;
     position: absolute;
     right: 10%;
     cursor: pointer;
@@ -75,8 +74,22 @@
     border-radius: 30px;
 }
 
+.view-btn{
+    background-color: dodgerblue;
+    color: white;
+    position: absolute;
+    left: 10%;
+    padding: 5px 20px;
+    margin: 10px;
+    border-radius: 10px;
+}
+
 @media screen and (max-width: 450px) {
     .portfolio .portfolio-container img{
     width: 80vw;
+    }
+    .portfolio-inner-container{
+    height: 200px;
+    width:80vw ;
 }
 }

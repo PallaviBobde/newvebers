@@ -6,10 +6,10 @@ function AboutInfo() {
     <div className="aboutInfo">
       <div className="top ">
         <div>
-          <h1>Welcome to VebersZone</h1>
+          <h1 className="sub-heading">Who We Are & What We Do</h1>
         </div>
       </div>
-      <p>
+      <p className="normal-text">
         VebersZone isn't just a place for websites; it's where creativity,
         knowledge, and love come together. Whether it's a clean business site or
         a fun online store, we love providing solutions that not only meet but
