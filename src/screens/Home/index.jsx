@@ -8,6 +8,7 @@ import Testimonials from '../../components/Testimonials';
 import FAQs from '../../components/Faqs';
 import PortfolioSection from '../../components/PortfolioSection';
 import TopBanner from '../../components/TopBanner';
+import { Link } from 'react-router-dom';
 
 function Home() {
   return (<>
@@ -19,6 +20,16 @@ function Home() {
       <Testimonials/>
       <FAQs/>
       <Footer/>
+      <div className='sticky'>
+        <p> Wish happy rose day!</p>
+        <Link
+          to={`/roseday`}
+          className='menubtn'
+        >
+            Send Wish
+        </Link>
+      </div>
+      
 </>
 
   )

@@ -1,0 +1,53 @@
+.roseday{
+    height: 100vh;
+    width: 100vw;
+    background-color: #CC1C46;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+}
+
+.roseday img{
+    width: 100px;
+    margin: 20px;
+}
+.roseday h1{
+    font-size: 30px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+.roseday .form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: antiquewhite;
+    color: #444;
+    padding: 20px;
+    border-radius: 20px;
+    width: 60%;
+}
+.roseday input{
+    border-radius: 20px;
+    padding: 10px;
+    width: 60%;
+    margin: 10px 0;
+    width: 100%;
+}
+
+.roseday button{
+    background-color: #CC1C46;
+    color: white;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 10px;
+    width: fit-content;
+    min-width: 200px;
+}
+
+.roseday .menubtn{
+    margin-bottom: 20px;
+}
