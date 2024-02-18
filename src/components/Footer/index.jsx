@@ -36,9 +36,6 @@ function Footer() {
        <Link to="/contactus" className="a hideOnMobile">
         Contact Us
         </Link>
-        <Link to="/valentinediary" className="a hideOnMobile">
-          Valentine Diary 
-        </Link>
     </div>
     <div className="contact-container">
       <p className="footer-heading hideOnMobile">Get in contact with us!</p>
